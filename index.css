@@ -1,0 +1,489 @@
+*{margin:0;padding:0}
+.container {
+    width: 100%;
+    margin:0;padding:0;
+}
+
+@media (min-width: 375px) {
+    .container {
+        max-width: 540px;
+    }
+    .my_bg {
+        height: 40rem !important;
+    }
+    .my_div {
+        width: 50% !important;
+        height: 65% !important;
+    }
+    .andro {
+        width: 27% !important;
+        top: 87% !important;
+    }
+    .apple {
+        width:27% !important;
+        top: 87% !important;
+    }
+    .my_font {
+        font-size: 2.5rem !important;
+        letter-spacing: 5px !important;
+    }
+    .a_icon {
+       display:none !important;
+    }
+    .img_phone{
+        width:90%;
+    }
+    .my_margin{
+        text-align: center !important;
+        margin: 30px !important;
+    }
+    .my_margin h1{
+        font-size: 20px !important;
+    }
+    .my_font2{
+        font-size: 10px !important;
+        line-height: 2rem !important;
+    }
+    .my_padding{
+        padding: 10px 30px !important;
+
+    }
+    .img{
+        margin-left: 64px !important;
+    }
+    .icons_align{
+        margin-left:80px !important;
+        margin-top: 20px !important;
+    }
+    .my_font3{
+        font-size: 20px;
+        margin-top: 20px !important;
+    }
+    .table_font{
+        font-size:20px !important;
+    }
+    .table_img{
+        width:60% !important;
+        padding-bottom: 40px !important;
+    }
+    .tble_ml{
+        margin-left:11% !important;
+    }
+
+    .m_align{
+        margin-top: 50px !important;
+        margin-right: 10px !important;
+    }
+    .input_w{
+        width:80% !important;
+    }
+    .p_r{
+        padding-left: 38px !important;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 878px;
+    }
+    .andro{
+        width:22% !important;
+        top:80% !important;
+        left:20%;
+    }
+    .apple{
+        width:22% !important;
+        top:80% !important;
+        right:20%;
+    }
+    .nav-link{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .my_div {
+        width: 50% !important;
+        height: 50% !important;
+    }
+    .img_phone{
+        width:85%;
+    }
+    .img_phone{
+        width:35% !important;
+    }
+    .my_font{
+        font-size: 40px !important;
+        letter-spacing: 2px !important;
+    }
+    .my_margin{
+        margin:20px 10px !important;
+        padding:10px !important;
+    }
+    .my_margin h1{
+        width:100% !important;
+        margin-bottom: 40px !important;
+    }
+    .img{
+        width:70% !important;
+        margin-top: 30px !important;
+    }
+    .my_font2{
+        font-size: 18px !important;
+        letter-spacing: 1px !important;
+        line-height: 2rem !important;
+    }
+    .carousel-inner{
+        margin-left: 40px !important;
+        margin-top: 40px !important;
+    }
+    .carousel{
+        margin-left:40px !important;
+    }
+    .icons_align{
+        margin-left:200px !important;
+        margin-top: 20px !important;
+    }
+    .my_font3{
+        font-size: 20px;
+        margin-top: 40px !important;
+    }
+    .table_font{
+        font-size:20px !important;
+    }
+    .table_img{
+        width:60% !important;
+        padding-bottom: 40px !important;
+    }
+    .tble_ml{
+        margin-left:20% !important;
+    }
+
+    .m_align{
+        margin-top: 50px !important;
+        margin-right: 10px !important;
+    }
+    .input_w{
+        width:90% !important;
+    }
+    .p_r{
+        padding-left: 20px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1024px;
+    }
+    .andro{
+        width:22% !important;
+        top:80%;
+        left:20%;
+    }
+    .apple{
+        width:22% !important;
+        top:80%;
+        right:20%;
+    }
+    .img_phone{
+        width:35% !important;
+    }
+    .my_font{
+        font-size: 60px !important;
+        letter-spacing: 2px !important;
+    }
+    .my_margin{
+        margin:0 !important;
+        padding:0 !important;
+    }
+    .my_margin h5{
+        width:100% !important;
+    }
+    .img{
+        width:65% !important;
+        margin-top: 30px !important;
+        margin-left: 50px !important;
+    }
+    .my_font2{
+        font-size: 26px !important;
+        letter-spacing: 2px !important;
+        line-height: 3rem !important;
+    }
+    .my_margin h1{
+        font-size: 40px !important;
+    }
+    .carousel{
+        margin-right:50px !important;
+    }
+    .icons_align{
+        margin-left:200px !important;
+        margin-top: 30px !important;
+    }
+    .my_font3{
+        font-size: 40px;
+    }
+    .table_font{
+        font-size:20px !important;
+    }
+    .table_img{
+        width:75% !important;
+    }
+    .tble_ml{
+        margin-left:30% !important;
+    }
+    .p_r {
+        padding-right: 100px !important;
+    }
+    .m_align{
+        margin-top: 30px !important;
+        margin-right: 100px !important;
+    }
+    .input_w{
+        width:90% !important;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 2400px;
+    }
+    .my_bg {
+        height: 56rem !important;
+    }
+    .andro{
+        width:15% !important;
+        top:80%;
+        left:20%;
+    }
+    .apple{
+        width:15% !important;
+        top:80%;
+        right:20%;
+    }
+    .my_font{
+        font-size:60px !important;
+        letter-spacing: 15px !important;
+    }
+    .font_width{
+        width:70% !important;
+    }
+    .img{
+        width: 40% !important;
+        padding-bottom: 50px !important;
+        margin: 0 !important;
+    }
+    .my_font2{
+        font-size:25px !important;
+        letter-spacing: 5px !important;
+    }
+    .carousel-inner{
+        margin-left: 200px !important;
+    }
+    .my_margin{
+        margin-top: 100px !important;
+    }
+    .weixin,.weibo{
+        display: block;
+    }
+    .icons_align{
+        margin-left:400px !important;
+        margin-top: 40px !important;
+    }
+    .table_font{
+        font-size:25px !important;
+    }
+    .table_img{
+        width:75% !important;
+    }
+    .tble_ml{
+        margin-left:40% !important;
+    }
+    .pr-0, .px-0 {
+        padding-right: 100px !important;
+    }
+    .m_align{
+        margin-top: 50px !important;
+        margin-right: 190px !important;
+    }
+    .input_w{
+        width:90% !important;
+    }
+    #swiper-stars {
+        width: 75%;
+    }
+    #swiper-stars {
+        margin: 0 auto;
+        padding: 40px 0;
+        width: 60%;
+    }
+    .swiper-container-3d {
+        -webkit-perspective: 1200px;
+        perspective: 1200px;
+    }
+    .swiper-container {
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        list-style: none;
+        padding: 0;
+        z-index: 1;
+    }
+    .swiper-container-coverflow .swiper-wrapper {
+        -ms-perspective: 1200px;
+    }
+    .swiper-container-3d .swiper-cube-shadow, .swiper-container-3d .swiper-slide, .swiper-container-3d .swiper-slide-shadow-bottom, .swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right, .swiper-container-3d .swiper-slide-shadow-top, .swiper-container-3d .swiper-wrapper {
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+    }
+    .swiper-container-android .swiper-slide, .swiper-wrapper {
+        -webkit-transform: translate3d(0,0,0);
+        transform: translate3d(0,0,0);
+    }
+    .swiper-wrapper {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: -webkit-transform;
+        -o-transition-property: transform;
+        transition-property: transform;
+        transition-property: transform,-webkit-transform;
+        -webkit-box-sizing: content-box;
+        box-sizing: content-box;}
+
+    element.style {
+        width: 272px;
+        transition-duration: 0ms;
+        transform: translate3d(0px, 0px, -1680px) rotateX(0deg) rotateY(0deg);
+        z-index: -27;
+    }
+    #activities .swiper-slide {
+        filter: grayscale(1);
+        -webkit-filter: grayscale(1);
+        -ms-filter: grayscale(1);
+        -moz-filter: grayscale(1);
+        box-shadow: 1px 1px 26px 0px rgba(0,0,0, 0.7);
+    }
+    .swiper-container-3d .swiper-cube-shadow, .swiper-container-3d .swiper-slide, .swiper-container-3d .swiper-slide-shadow-bottom, .swiper-container-3d .swiper-slide-shadow-left, .swiper-container-3d .swiper-slide-shadow-right, .swiper-container-3d .swiper-slide-shadow-top, .swiper-container-3d .swiper-wrapper {
+        -webkit-transform-style: preserve-3d;
+        transform-style: preserve-3d;
+    }
+    .swiper-slide {
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        -webkit-transition-property: -webkit-transform;
+        transition-property: -webkit-transform;
+        -o-transition-property: transform;
+        transition-property: transform;
+        transition-property: transform,-webkit-transform;
+    }
+}
+.navbar{
+    background-color: #000;
+}
+.nav-link{
+    color:#fff;
+    font-size:20px;
+    font-weight: bold;
+    font-family:微软雅黑;
+    border-bottom:0;
+    transition:border-bottom 0.4s ease-in-out;
+}
+.nav-link:hover{
+    border-bottom: 1px solid #f00;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+.nav-item:hover{
+    border-bottom:#ff0012;
+}
+.logo_width{
+    width:60px;height:80px;
+}
+.weixin,.weibo{
+    width:70%;
+}
+.a_icon{
+    display: block;
+    width:3%;
+    height:100%;
+    border:1px solid #fff;
+    border-radius: 15%;
+}
+.my_bg{
+    background-image: url("../img/jmqn.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height:56rem;
+}
+.my_div{
+    background-color:rgba(255,255,255,0.15);
+    width:50%;
+    height:50%;
+    top:50%;left:50%;
+    transform-origin: left top;
+    transform:translate(-50%,-50%);
+}
+.my_font{
+    font-size: 3rem;
+    top:50%;left:50%;
+    transform-origin: left top;
+    transform:translate(-50%,-50%);
+    letter-spacing:10px;
+    text-align: center;
+}
+.andro{
+    width:12%;
+    top:80%;
+    left:20%;
+}
+.apple{
+    width:12%;
+    top:80%;
+    right:20%;
+}
+.my_padding{
+    padding:6rem 20%;
+}
+.my_font2{
+    font-size:1.2rem;
+    letter-spacing:2px;
+    line-height: 3rem;
+}
+.padding_left{
+    padding-top:110px;
+}
+.carousel-control-prev-icon {
+    background-image: url("../img/left.png");
+}
+
+.carousel-control-next-icon {
+    background-image: url("../img/right.png");
+}
+.carousel-indicators li {
+    border:1px solid grey;
+    width: 0.75rem;height:0.75rem;
+    border-radius: 50%;
+    background-color: rgba(255,255, 255, 0.5);
+    margin-right:1%
+}
+.carousel-indicators .active{
+    background-color:rgba(0,0,0,0.5) ;
+}
+.img{
+    width:60%;
+}
+.my_margin{
+    margin-top:5rem;
+}
