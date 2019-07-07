@@ -1,0 +1,139 @@
+.part11{
+    width: 1600px;
+    height: 400px;
+    background: #222;
+    color: #fff;
+    font-size: 15px;
+    margin-top:90px;
+  }
+  .part11 .shu{
+    border-right: 2px solid #fff;
+    width: 0;height: 40px;
+  }
+  .part11 .ul_one{
+    display: flex;
+    justify-content: space-around;
+    width: 1300px;
+    margin-left: 135px;
+    align-items: center;
+    margin-top:40px
+  }
+  .part11 .ul_one img{
+    width: 110px;
+  }
+  .part11 .ul_two{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    flex-wrap: wrap;
+    margin-right: 40px;
+  }
+  .part11 .ul_two li{
+    padding-left: 50px;
+    padding-top: 7px
+  }
+  .part11 a{
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 2px
+  }
+  .part11 ul{
+    list-style: none;
+  }
+  .part11 .ul_three li{
+    padding-left: 50px;
+    padding-top: 7px
+  }
+  .part11 .ul_four{
+    display: flex;
+    width: 1000px;
+    margin:40px 300px;
+    border-top: 1px solid rgb(153, 153, 153);
+    border-bottom: 1px solid rgb(153, 153, 153);
+  }
+  .part11 .ul_four li{
+    padding: 20px 40px;
+  
+  }
+  .part11 .ul_four li a{
+    padding-left: 15px;
+  }
+  .bottom_txt{
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  .part11 .wx{
+    position: relative;
+  }
+  .part11 .ul_four .weixin{
+    width: 100px !important;
+    opacity:0;
+    transition: all .5s linear;
+    position: absolute;
+    top:-80px;left:50px;
+  }
+  .part11 .wx:hover>.weixin{
+    opacity:1;
+  }
+  .i_nput{
+    width:1000px;height: 500px;
+    margin:50px 250px;
+  }
+  .i_nput .title2{
+    text-align: center;
+  }
+  .i_nput .title2 h4{
+    font-weight:bold; 
+    margin-bottom: 15px
+  }
+  .i_nput ul{
+    list-style: none;
+    display: flex;
+    width: 1400px;
+    flex-wrap: wrap;
+    margin-left: 100px
+  } 
+  .i_nput ul li{
+    margin-top:15px;
+    width: 500px;
+  }
+  .i_nput ul li input{
+    width: 70%;
+    padding-bottom: 2px;
+    padding-top:5px; 
+    border: 0;
+    outline: none;
+    border-bottom: 1px solid #000;
+  }
+  .i_nput ul li p{
+    color: #666;
+    margin-top:15px;
+    margin-bottom: 0;
+  }
+  .i_nput ul li b{
+    color: red
+  }
+  .select1,.select2{
+    margin-top: 13px;
+    padding: 3px;
+    font-size: 14px;
+  }
+  .i_nput ul .s_elect .select1{
+    width: 300px
+  }
+  .i_nput button{
+    width: 150px;height: 50px;
+    background: transparent;
+    border: 2px solid #000;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin:20px 450px;
+    outline: 0;
+    margin-bottom: 50px;
+    transition: background-color .5s linear;
+  }
+  .i_nput button:hover{
+    background: black;
+    color: #fff
+  }
+  

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.introduce{
+    width: 900px;
+    margin-left: 350px;
+}
+.introduce>p{
+    font-weight: bold;
+    text-align: left;
+}
+.introduce span{
+    color:gray;
+    font-weight: lighter;
+    font-size: 13px;
+    padding-left:15px; 
+}
+.txt{
+    list-style: none;
+}
+.txt li{
+    margin-top: 30px;
+    font-size: 12px;
+    line-height: 30px;
+}
+.txt2{
+    margin-top: 40px;
+    font-size: 12px;
+    line-height: 35px;
+}
+.txt2 img{
+    width: 99%;
+    margin-top: 40px;
+
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    align-items: center;
+}
+.contact_logo{
+    width: 469px;height: 130px;
+    box-shadow: 0 3px 5px 1px rgba(0,0,0,.3);
+    margin-top: 30px
+}
+.contact_logo img{
+    width: 20%;
+    margin: 50px 160px
+}
+.contact ul li{
+    margin-top: 25px;
+}
+ul.address{
+    width: 900px;height: 280px;
+    list-style-type: circle ! important;
+    margin-top: 80px;
+}
+.address li{
+    margin-top: 20px;
+}
