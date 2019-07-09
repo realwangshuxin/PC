@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="css/bootstrap.css"/>
-    <link rel="stylesheet" href="css/main.css"/>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
     <!-- 导入3个js-->
     <script src="js/main.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/swiper.min.js"></script> -->
 </head>
 <body>
   <div class="container"> 
@@ -132,7 +134,30 @@
     </div>
 
 
-
+      <!-- Swiper
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/banner3.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/banner4.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/banner5.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/banner6.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/banner7.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/banner8.jpg" alt=""></div>
+      <div class="swiper-slide"><img src="img/banner9.jpg" alt=""></div>
+    </div>
+    <!-- Add Arrows -->
+    <!-- <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div> --> -->
+  <!-- <script>
+      var swiper = new Swiper('.swiper-container', {
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script> -->
 
     <div class="carousel" data-ride="carousel" id="demo">
       <div class="carousel-inner">
@@ -273,8 +298,8 @@
     <div class="part7">
       <h2>学必有师，孰能无惑</h2>
       <p>时尚，花艺，软装行业内顶级讲师任你挑</p>
-      <ul>
-        <li>
+      <ul class="teachers">
+        <!-- <li>
           <img src="img/1_teacher.jpg" alt="">
           <div>
             <p>英国Harvey Nichols 哈维·尼克斯百货视觉营销经理</p>
@@ -297,8 +322,12 @@
             <p>花艺创作艺术家</p>
             <p>小林祐治（日本）</p>
           </div>
-        </li>
+        </li> -->
       </ul>
+      <div class="btn_change">
+          <button class="swiper-prev"></button>
+          <button class="swiper-next"> </button>
+      </div>
     </div>
 
     <div class="part8">
@@ -309,8 +338,8 @@
     <div class="part9">
       <h2>志之所趋，无远弗届</h2>
       <p>数千学子，通过中赫创业/就业成功</p>
-      <ul>
-        <li>
+      <ul class="article">
+        <!-- <li>
           <img src="img/li_1.png" alt="">
           <div>
             <h5><a href="">8年的约定，这对闺蜜终于实现了！</a></h5>
@@ -357,7 +386,7 @@
               <p class="bb"><a href="">我叫大鹿，一名野生花艺师，2015毕业于...</a></p>
               <p class="b">空间花艺</p class="b">
             </div>
-        </li>
+        </li> -->
       </ul>
     </div>
 
@@ -488,9 +517,9 @@
 
 
   </div>
-  <script src="js/jquery.min.js"></script>
   <script src="js/jquery-1.11.3.js"></script>
   <script src="js/select.js"></script>
   <script src="js/slidedown.js"></script>
+  <script src="js/main.js"></script>
 </body>
 </html>

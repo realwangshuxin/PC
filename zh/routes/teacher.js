@@ -9,7 +9,7 @@ router.get("/",(req,res)=>{
    if(!ps){ps=10}
    //-创建第一条 sql语句 当前页
    var obj = {code:1,msg:"查询成功"};
-    var sql=`SELECT tid,pic,title,subtitle,descrip,tag FROM zh_teacher LIMIT ?,?`;
+    var sql=`SELECT tid,pic,title,subtitle,descrip,tag,hidecontent FROM zh_teacher LIMIT ?,?`;
     var off = (pno-1)*ps;
     //行数必须转整型
     ps = parseInt(ps);

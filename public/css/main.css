@@ -1,3 +1,26 @@
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
 *{
   margin:0;padding:0;
 }
@@ -326,6 +349,12 @@
   text-align: center;
   margin-left:200px;
 }
+.part7 .teachers{
+  width:1300px;
+  /* height: 440px; */
+  overflow: hidden;
+  margin-left:70px;
+}
 .part7>P{
   font-size: 15px;
   margin-top:10px;
@@ -334,6 +363,7 @@
 .part7 img{
   width: 80px;height: 80px;
   border-radius: 50%;
+
 }
 .part7>ul{
   list-style: none;
@@ -341,11 +371,14 @@
   margin-left: -180px;
   margin-top:50px 
 }
-.part7 ul li{
-  padding-left: 180px;
-  text-align: center;
+.part7 .teachers li{
+  /* padding-left: 180px; */
+  /* text-align: center; */
+  height: 250px;
+  width: 400px;
 }
 .part7 ul li div{
+  width: 400px;
   margin-top:30px;
   font-size: 14px;
   text-align: center;
@@ -357,8 +390,45 @@
   font-weight: bold;
   margin-top:25px
 }
+.swiper-prev{
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  outline:none;
+  border: 0;
+  background-image: url("http://127.0.0.1:8888/img/prev_b.png");
+  background-repeat:no-repeat; 
+  background-size:cover;
+  margin-right: 30px; 
+}
+.swiper-prev:hover{
+  background-image: url("http://127.0.0.1:8888/img/prev_after.png");
+  background-repeat:no-repeat; 
+  background-size:cover 
+}
+.swiper-next{
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  outline:none;
+  border: 0;
+  background-image: url("http://127.0.0.1:8888/img/next_b.png");
+  background-repeat:no-repeat; 
+  background-size:cover ;
+}
+.swiper-next:hover{
+  background-image: url("http://127.0.0.1:8888/img/next_after.png");
+  background-repeat:no-repeat; 
+  background-size:cover 
+}
+.btn_change{
+  display: flex;
+  /* justify-content: space-between; */
+  margin-left: 600px;
+}
 .part8{
   position: relative;
+  margin-top: 20px
 }
 .sign{
   display: inline-block;

@@ -18,13 +18,22 @@ $(function(){
                 <div class="tag">${tag}</div>
               </div>
               <div class="btn_down"><img src="../img/btn_down.png"></div>
-              <div class="hide"></div>
+              <div class="hide">${hidecontent}</div>
         </li>`;
         // console.log(html)
     }
     $(".teacher").html(html); 
     $(".btn_down").click(function(){
-      $(this).next().html(hidecontent).slideToggle();
+        $(this).parent().siblings("li").children(".hide").slideUp();
+        $(this).next().html(hidecontent).slideToggle();
+      
+    })
+    $(".btn").click(function(){
+        var scrollTop = $(window).scrollTop();
+        console.log(scrollTop);
+        $('body,html').animate({
+            "scrollTop": 0
+        }, 500)
     })
     })
 
@@ -38,7 +47,7 @@ $(function(){
             }).then(function(result){
                 var html="";
                 for(var res of result){
-                    var {tid,pic,title,subtitle,descrip,tag}=res;
+                    var {tid,pic,title,subtitle,descrip,tag,hidecontent}=res;
                     html+=
                     `<li>
                     <div style="background-image:url(http://127.0.0.1:8888/${pic})"></div>
@@ -48,11 +57,24 @@ $(function(){
                         <p>${descrip}</p>
                         <div class="tag">${tag}</div>
                     </div>
+                    <div class="btn_down"><img src="../img/btn_down.png"></div>
+                     <div class="hide">${hidecontent}</div>
                 </li>`;
                 // console.log(html)
             }
             $(".teacher").html(html);
-            $(this).load(); 
+            $(".btn_down").click(function(){
+                $(this).parent().siblings("li").children(".hide").slideUp();
+                $(this).next().html(hidecontent).slideToggle();
+              
+            })
+            $(".btn").click(function(){
+                var scrollTop = $(window).scrollTop();
+                console.log(scrollTop);
+                $('body,html').animate({
+                    "scrollTop": 0
+                }, 500)
+            })
             })
         }
     })
@@ -68,7 +90,7 @@ $(function(){
                 console.log(result)
                 var html="";
                 for(var res of result){
-                    var {tid,pic,title,subtitle,descrip,tag}=res;
+                    var {tid,pic,title,subtitle,descrip,tag,hidecontent}=res;
                     html+=
                     `<li>
                     <div style="background-image:url(http://127.0.0.1:8888/${pic})"></div>
@@ -78,10 +100,24 @@ $(function(){
                         <p>${descrip}</p>
                         <div class="tag">${tag}</div>
                     </div>
+                    <div class="btn_down"><img src="../img/btn_down.png"></div>
+                    <div class="hide">${hidecontent}</div>
                 </li>`;
                 // console.log(html)
             }
             $(".teacher").html(html); 
+            $(".btn_down").click(function(){
+                $(this).parent().siblings("li").children(".hide").slideUp();
+                $(this).next().html(hidecontent).slideToggle();
+              
+            })
+            $(".btn").click(function(){
+                var scrollTop = $(window).scrollTop();
+                console.log(scrollTop);
+                $('body,html').animate({
+                    "scrollTop": 0
+                }, 500)
+            })
             })
         }
     })
@@ -96,7 +132,7 @@ $(function(){
                 console.log(result)
                 var html="";
                 for(var res of result){
-                    var {tid,pic,title,subtitle,descrip,tag}=res;
+                    var {tid,pic,title,subtitle,descrip,tag,hidecontent}=res;
                     html+=
                     `<li>
                     <div style="background-image:url(http://127.0.0.1:8888/${pic})"></div>
@@ -106,10 +142,24 @@ $(function(){
                         <p>${descrip}</p>
                         <div class="tag">${tag}</div>
                     </div>
+                    <div class="btn_down"><img src="../img/btn_down.png"></div>
+                    <div class="hide">${hidecontent}</div>
                 </li>`;
                 // console.log(html)
             }
             $(".teacher").html(html); 
+            $(".btn_down").click(function(){
+                $(this).parent().siblings("li").children(".hide").slideUp();
+                $(this).next().html(hidecontent).slideToggle();
+              
+            })
+            $(".btn").click(function(){
+                var scrollTop = $(window).scrollTop();
+                console.log(scrollTop);
+                $('body,html').animate({
+                    "scrollTop": 0
+                }, 500)
+            })
             })
         }
     })

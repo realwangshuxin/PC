@@ -5,6 +5,8 @@ const bodyParser = require('body-parser');
 // const main=require("./routes/main");
 const cors = require("cors");
 const teacher=require("./routes/teacher");
+const article=require("./routes/article");
+const teachers=require("./routes/teachers");
 var server = express();
 var app = express();
 var server = app.listen(8888);
@@ -18,4 +20,7 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(express.static('public'));
 /*使用路由器来管理路由*/
 // app.use("/main",main);
+// app.use("/main",main);
 app.use("/teacher",teacher);
+app.use("/article",article);
+app.use("/teachers",teachers);

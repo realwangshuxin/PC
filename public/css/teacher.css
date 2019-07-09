@@ -1,35 +1,39 @@
+
 .all{
-    width: 800px
+    width: 1000px;
+    height: 2890px;
+    margin-left: 370px;
 }
 .all>h2{
     font-size: 16px;
     font-weight: bold;
+    margin-bottom: 10px
 
 }
 .all>p{
-    width: 650px;
+    width: 850px;
     height: 90px;
     font-size: 12px;
     color: #333;
     line-height: 22px;
 }
 .all .teacher_title{
-    width: 65px;
+    width: 165px;
     border-bottom: 2px solid #000;
     font-weight: bold;
-    padding:5px
+    padding:5px;
+    margin-bottom: 10px
 }
 .teacher{
-    width:600px;
+    width:1000px;
     height: 230px;
     list-style: none;
-    /* position: relative; */
     padding: 2px;
+
 }
 .teacher li{
-    /* position: absolute;
-    top:19px;left: 255px; */
     display: flex;
+    width:850px;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 10px;
@@ -43,20 +47,26 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+.txt{
+    margin-top: 20px;
+}
 .teacher li p{
     width: 300px;
     color: dimgrey;
     font-size: 12px;
     line-height: 20px; 
+    padding-bottom: 10px;
 }
 .teacher li h2{
     font-size:20px;
+    padding-bottom: 10px;
 }
 .teacher li h3{
     font-size:16px;
+    padding-bottom: 10px;
 }
 .teacher li .tag{
-    width: 140px;
+    width: 150px;
     height: 30px;
     background-color:rgb(201, 201, 201);
     font-size: 12px;
@@ -72,8 +82,8 @@
     width: 150px;
     list-style: none;
     position: relative;
-    top: 2450px;
-    left: 200px;
+    top: 0px;
+    left:660px;
 }
 .btn{
     /* display: block; */
@@ -95,11 +105,21 @@
 }
 .hide{
     display: none;
-    width: 600px;
-    height: 200px;
+    width: 900px;
+    height: 100px;
     background: #e7e7e7;
-    text-align: center;
+    /* text-align: center; */
     padding: 10px;
     overflow: hidden;
     margin-top: 10px;
+    font-size: 11px;
+}
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    width:600px;
+    height: 230px; 
+}
+.btn_down:hover{
+    cursor: pointer;
 }
