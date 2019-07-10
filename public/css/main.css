@@ -1,6 +1,11 @@
 .swiper-container {
   width: 100%;
   height: 100%;
+  margin-top:60px; 
+}
+.swiper-slide>img{
+  width: 100% !important;
+
 }
 .swiper-slide {
   text-align: center;
@@ -21,6 +26,41 @@
   -webkit-align-items: center;
   align-items: center;
 }
+/* .swiper-button-next,.swiper-button-prev{
+  background-image: url()
+} */
+.padd{
+  padding-left:120px !important; 
+  /* margin-top: 50px !important; */
+}
+.parent{
+  position: relative;
+}
+.child{
+  position: absolute;
+  top: 50%;left: 50%;
+  width: 1600px;
+  transform: translate(-800px,-100px);
+  height: 100%;
+  /* line-height: 150%; */
+  /* text-align: center */
+}
+.background{
+  background: rgba(0,0,0,.3);
+  width: 100%;height: 100%;
+  position: absolute;
+
+}
+.child h2{
+  font-size: 37px;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.child p{
+  font-size: 20px;
+  color: #fff;
+}
 *{
   margin:0;padding:0;
 }
@@ -30,7 +70,7 @@
 }
 .dhl{
   width:1600px;
-  height:80px;
+  height:60px;
   /* margin-top: 30px; */
   position: fixed;
   z-index: 2000;
@@ -49,6 +89,7 @@
   border:1px solid #000;
   padding:1px 4px;
   float: left;
+  text-decoration: none;
 }
 .number{
   color:#666;
@@ -57,11 +98,43 @@
   margin-left:30px;
   font-weight: bold;
   float: left;
+  text-decoration: none;
 }
 .search{
   width:30px;height:30px;
   margin-left:30px; 
   float: left;
+}
+
+.searchtext{
+  /* width:0; */
+  /* display: none; */
+  /* height: 60px;
+  background: #333;
+  overflow: hidden;
+  position: absolute;
+  top: -7px;
+  left: 20px; */
+  /* display: none */
+  height: 60px;
+  width: 200px;
+  overflow: hidden;
+  position: absolute;
+  top: -4px;left: -21px;
+}
+.searchtext input{
+  border: 0;
+  outline: none;
+  /* margin-left: 20px; */
+  padding-left: 20px;
+  font-size: 15px;
+  width: 100%;
+  height:100%;
+  background: #333;
+  overflow: hidden;
+  position: absolute;
+  top: -7px;
+  left: 200px;
 }
 .login{
   display: inline-block;
@@ -71,6 +144,7 @@
   background-color:#000; 
   line-height: 30px;
   margin-left: 100px;
+  text-decoration: none;
 }
 .carousel{
   width:1700px !important;

@@ -5,14 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <!-- <link rel="stylesheet" href="css/bootstrap.css" type="text/css"> -->
+  <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
-    <!-- <link rel="stylesheet" href="css/swiper.min.css"> -->
     <!-- 导入3个js-->
-    <script src="js/main.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- <script src="js/swiper.min.js"></script> -->
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <!-- <script src="js/popper.min.js"></script> -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <!-- <script src="js/main.js"></script> -->
 </head>
 <body>
   <div class="container"> 
@@ -128,38 +129,85 @@
         <div class="title_right">
             <a href="" class="en">EN</a>
             <a href="" class="number">4006-345-900</a>
-            <a href=""><img src="img/search.png" alt="" class="search"></a>
+            <a href="javascript:;" class="searcha"><img src="img/search.png" alt="" class="search"></a>
+            <div class="searchtext">
+              <input type="text" placeholder="请输入搜索内容">
+            </div>
             <a href="" class="login">登录</a>
         </div>
     </div>
 
 
-      <!-- Swiper
+      <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
       <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="img/banner3.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="img/banner4.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="img/banner5.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="img/banner6.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="img/banner7.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="img/banner8.jpg" alt=""></div>
-      <div class="swiper-slide"><img src="img/banner9.jpg" alt=""></div>
+      <div class="swiper-slide parent">
+        <div class="background"></div>
+        <img src="img/banner3.jpg" alt="">
+        <div class="child">
+          <h2>中赫时尚视觉营销陈列课程，开启商业视觉营销陈列设计大门</h2>
+          <p>COHIM VISUAL MERCHANDISING DESIGN-ENTERING THE WORLD OF COMMERCIAL VISUAL MERCHANDISING DESIGN</p>
+        </div>
+      </div>
+      <div class="swiper-slide parent">
+        <div class="background"></div>
+        <img src="img/banner4.jpg" alt="">
+        <div class="child">
+            <h2>中赫时尚服装造型搭配课程</h2>
+            <p>COHIM FASHION STYLING-HIT ON THE HIGHWAY OF FASHION INDUSTRY</p>
+        </div>
+      </div>
+      <div class="swiper-slide parent">
+          <div class="background"></div>
+        <img src="img/banner5.jpg" alt="">
+        <div class="child">
+            <h2>用新零售空间设计开启   2019年创业百万收入计划</h2>
+            <p>NEW RETAIL SPACE DESIGN <br> 2019 MILLIONARE DEVELOPMENT PROGRAM</p>
+        </div>
+      </div>
+      <div class="swiper-slide parent">
+        <div class="background"></div>
+        <img src="img/banner7.jpg" alt="">
+        <div class="child">
+            <h2>咖啡馆失败,垮掉是生意还是思维</h2>
+            <p>Cafe fails from business or mindset</p>
+        </div>
+      </div>
+      <div class="swiper-slide parent">
+          <div class="background"></div>
+        <img src="img/banner6.jpg" alt="">
+        <div class="child">
+            <h2>学会如何购买的商业艺术</h2>
+            <p>NEW RETAIL SPACE DESIGN <br> 2019 MILLIONARE DEVELOPMENT PROGRAM</p>
+        </div>
+      </div>
+      <div class="swiper-slide parent">
+          <div class="background"></div>
+        <img src="img/banner9.jpg" alt="">
+        <div class="child">
+            <h2>软装生活艺术家，触手可及的软装设计</h2>
+            <p>COHIM FASHION STYLING-HIT ON THE HIGHWAY OF FASHION INDUSTRY</p>
+        </div>
+      </div>
     </div>
     <!-- Add Arrows -->
-    <!-- <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
-  </div> --> -->
-  <!-- <script>
+    <div>
+        <div class="swiper-button-next padd"></div>
+        <div class="swiper-button-prev padd"></div>
+    </div>
+    <div><a href=""></a></div>
+  </div>
+   <script>
       var swiper = new Swiper('.swiper-container', {
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
     });
-  </script> -->
+  </script>
 
-    <div class="carousel" data-ride="carousel" id="demo">
+    <!-- <div class="carousel" data-ride="carousel" id="demo">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="img/banner1.jpg" alt="" class="w-100">
@@ -191,7 +239,7 @@
         <li data-target="#demo" data-slide-to="7"></li>
         <li data-target="#demo" data-slide-to="8"></li>
       </ul>
-    </div>
+    </div> -->
 
     <img src="img/part3.jpg" alt="" class="part3">
 

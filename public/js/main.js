@@ -1,4 +1,4 @@
-$(function(){
+$(()=>{
     $.ajax({
         url:"http://127.0.0.1:8888/article",
         type:"get",
@@ -58,6 +58,15 @@ $(function(){
         if(time<=1){
             // $(this).attr("disabled",true);
             time=1;
+        }
+    })
+
+    $(".searcha").click(function(){
+        if($(".searchtext input").css("left")=="200px"){
+            $(".searchtext input").css({"left":"0","transition":"all .5s linear"})
+        }
+        if($(".searchtext input").css("left")=="0px"){
+            $(".searchtext input").css({"left":"200px","transition":"all .5s linear"})
         }
     })
 })

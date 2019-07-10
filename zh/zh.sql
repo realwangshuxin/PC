@@ -466,3 +466,25 @@ CREATE TABLE zh_teachers(
     null,'img/teachers/8_teacher.jpg','日本著名花艺设计师','“花艺创作艺术家”',
     '小林祐治（日本）'
 );
+
+
+CREATE TABLE zh_login(
+    uid INT PRIMARY KEY AUTO_INCREMENT,
+    uname VARCHAR(32),
+    upwd VARCHAR(32)
+);
+ INSERT INTO zh_login VALUES(
+    null,'baocheng','123456'
+);
+ INSERT INTO zh_login VALUES(
+    null,'wangshuxin','123456'
+);
+ INSERT INTO zh_login VALUES(
+    null,'pangzhiqiang','123456'
+);
+ INSERT INTO zh_login VALUES(
+    null,'weisiyuan','123456'
+);
+ INSERT INTO zh_login VALUES(
+    null,'nancy','123456'
+);
