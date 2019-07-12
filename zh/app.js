@@ -8,11 +8,12 @@ const teacher=require("./routes/teacher");
 const article=require("./routes/article");
 const teachers=require("./routes/teachers");
 const login=require("./routes/login.js");
+const insert=require("./routes/insert.js");
 var server = express();
 var app = express();
 var server = app.listen(8888);
 app.use(cors({
-    origin:"http://127.0.0.1:5500"
+    origin:"http://127.0.0.1:5501"
   }))
 
 //使用body-parser中间件
@@ -26,3 +27,4 @@ app.use("/teacher",teacher);
 app.use("/article",article);
 app.use("/teachers",teachers);
 app.use("/login",login);
+app.use("/insert",insert);

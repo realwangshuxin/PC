@@ -47,6 +47,7 @@ $(function(){
     $("#my_button").click(function(){
         var uname=$("#uname").val();
         var upwd=$("#upwd").val();
+        var res1 = verifyCode.validate($("#code_input").val());
         $.ajax({
             url:"http://127.0.0.1:8888/login",
             type:"get",
@@ -55,13 +56,35 @@ $(function(){
         }).then(result=>{
             // result=JSON.parse(result);
             console.log(result)
-            if(result.code==1){
-                $(".yes").css({"width":"478px","transition":"all .5s linear"})
+            if(result.code==1 && res1){
+                sessionStorage.setItem("uname",uname);
+                // $(".yes").css({"width":"478px","transform":"scale(1,1)","transition":"all .5s linear"})
+                // $("#my_button").click(function(){
+                    $(".yes").css("display","block");
+                    setTimeout(function(){
+                       $(".yes").css("transform","scale(1,1)");
+                       },0);
+                // })
+                $(".confirm").click(function(){
+                    $(".yes").css("display","none")
+                    $(".yes").css("transform","scale(0.1,0.1)");
+                    location.href="../main.html"
+                })
             }
             if(result.code==-1){
-                $(".no").css({"width":"478px","transition":"all .5s linear"})
+                // $(".no").css({"width":"478px","transform":"scale(1,1)","transition":"all .5s linear"})
+                // $("#my_button").click(function(){
+                    $(".no").css("display","block");
+                    setTimeout(function(){
+                       $(".no").css("transform","scale(1,1)");
+                       },0);
+                // })
+                $(".confirm").click(function(){
+                    $(".no").css("display","none")
+                    $(".no").css("transform","scale(1,1)");
+                })
             }
-    
+            
         })
     })
 })

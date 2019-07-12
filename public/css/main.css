@@ -140,11 +140,15 @@
   display: inline-block;
   color: #fff;
   text-align: center;
-  width:80px;height:30px;
+  width:200px;height:40px;
   background-color:#000; 
-  line-height: 30px;
+  line-height: 40px;
   margin-left: 100px;
   text-decoration: none;
+}
+.login a{
+  text-decoration: none;
+  color: #fff;
 }
 .carousel{
   width:1700px !important;
@@ -762,4 +766,10 @@
 .i_nput button:hover{
   background: black;
   color: #fff
+}
+.smallcarousel{
+  margin-top:0; 
+}
+.smallcarousel img{
+  width: 92% !important;
 }

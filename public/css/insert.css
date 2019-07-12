@@ -101,17 +101,12 @@ input[type=text]:focus, input[type=password]:focus {
     position: relative;
     top: -43px;left: 282px;
 }
-.error2{
+.error2,.error3{
     position: relative;
     top: -43px;left: 282px;
     z-index: 1000
 }
-.error3{
-    position: relative;
-    top: 13px;left: 24px;
-    /* z-index: 1000 */
-    height:20px
-}
+
 .pwd{
     margin-top: 15px;
 }
@@ -149,6 +144,10 @@ input[type=text]:focus, input[type=password]:focus {
     top:0px;
     right: 0px;
     background: #fff;
+}
+#my_button:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.9)
 }
 .yes,.no{
     width:478px;
@@ -189,4 +188,18 @@ input[type=text]:focus, input[type=password]:focus {
     font-weight: 300;
     margin-bottom: 15px;
     overflow: hidden;
+}
+.agree{
+    font-size: 12px;
+}
+.agree{
+    text-align: left !important;
+    /* display: flex;
+    align-items: center; */
+    margin-top: -20px;
+    margin-bottom: 10px;
+    line-height: 36px;
+}
+.agree img{
+    margin-right: 10px;
 }

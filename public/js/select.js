@@ -20,7 +20,14 @@ var coruses=[
     [{name:"精品咖啡师课程",value:401},
     {name:"咖啡出品控制师课程",value:402},
     {name:"开店实务课程",value:403},
-    {name:"精品咖啡师课程（周末班）",value:404}]
+    {name:"精品咖啡师课程（周末班）",value:404}],
+        [{name:"品牌营销与运营管理课",value:101},
+        {name:"服装造型搭配课",value:102},
+        {name:"巴黎时尚买手深度研修课",value:103},
+        {name:"时尚买手课",value:104},
+        {name:"橱窗设计课",value:105},
+        {name:"视觉营销陈列设计课",value:106},
+        {name:"伦敦“新零售”视觉营销与商业空间设计研修课",value:107}]
 ];
 var $select1=$("#s1");
 var $select2=$("#s2");

@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <!-- 导入3个js-->
     <script src="js/swiper.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
     <script src="js/jquery.min.js"></script>
     <!-- <script src="js/popper.min.js"></script> -->
     <!-- <script src="js/bootstrap.min.js"></script> -->
@@ -24,8 +25,8 @@
           <li>
             <a href="">关于我们</a>
             <ul>
-              <li><a href="http://127.0.0.1:5500/html/introduce.html" target="_blank">中赫介绍</a></li>
-              <li><a href="">讲师团队</a></li>
+              <li><a href="html/introduce.html" target="_blank">中赫介绍</a></li>
+              <li><a href="html/teacher.html">讲师团队</a></li>
             </ul>
           </li>
           <li>
@@ -133,7 +134,10 @@
             <div class="searchtext">
               <input type="text" placeholder="请输入搜索内容">
             </div>
-            <a href="" class="login">登录</a>
+            <div id="login" class="login">
+              <span></span>
+              <a href="html/login.html" >登录</a>
+            </div>
         </div>
     </div>
 
@@ -324,7 +328,7 @@
   </div>
 
     <div class="part6">
-      <div class="carousel" data-ride="carousel" id="demo2">
+      <!-- <div class="carousel" data-ride="carousel" id="demo2">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="img/s_banner4.jpg" alt="" class="s_img"></div>
@@ -340,8 +344,44 @@
           <span class="carousel-control-next-icon"></span>
         </a>
 
-      </div>
+      </div> -->
+      <!-- Swiper -->
+    <div class="swiper-container swiper-container-initialized swiper-container-horizontal smallcarousel">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-slide-active">
+                <img src="img/s_banner4.jpg" alt="" class="s_img">
+            </div>
+            <div class="swiper-slide swiper-slide-next">
+                <img src="img/s_banner5.jpg" alt="" class="s_img">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/s_banner2.jpg" alt="" class="s_img">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/s_banner1.jpg" alt="" class="s_img">
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 8"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 9"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 10"></span></div>
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
     </div>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+        keyboard : true,
+        virtualTranslate : true,
+        on:{
+          setTranslate: function(){
+            this.$wrapperEl.transition('')
+            TweenMax.to(this.$wrapperEl, 1.5, {x:this.translate, ease:Power4.easeOut})
+            
+          }
+        },
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+        });
+    </script>
 
     <div class="part7">
       <h2>学必有师，孰能无惑</h2>

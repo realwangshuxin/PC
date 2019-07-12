@@ -69,4 +69,10 @@ $(()=>{
             $(".searchtext input").css({"left":"200px","transition":"all .5s linear"})
         }
     })
+    var uname=sessionStorage.getItem("uname");
+    if(uname){
+        var str=`欢迎回来&nbsp;|&nbsp;${uname}`+`&nbsp;|&nbsp;<a href="html/login.html" style="text-align:center;line-height:40px;
+        text-decoration:none;color:#fff;background:none;">退出</a>`
+        $("#login").html(str)
+    }
 })
