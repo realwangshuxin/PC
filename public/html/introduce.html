@@ -6,12 +6,112 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../css/introduce.css" type="text/css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
 </head>
 <body>
         <header></header>
     <div class="introduce">
     <!-- 轮播图 -->
+    <div class="swiper-container swiper-container-initialized swiper-container-vertical swiper-container-free-mode">
+  
+                <div class="swiper-wrapper" style="height: 2000px;">
+                <div class="refresh">释放刷新</div>
+                  <div class="swiper-slide swiper-slide-active">
+                          <img src="../img/introduce/banner1.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide swiper-slide-next">
+                        <img src="../img/introduce/banner2.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                        <img src="../img/introduce/banner3.jpg" alt="">
+                  </div>
+                </div>
+                <div class="swiper-scrollbar"><div class="swiper-scrollbar-drag" style="height: 254.16px; transform: translate3d(0px, 0px, 0px);"></div></div>
+              <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+            
+              <!-- Swiper JS -->
+              <script src="../js/swiper.min.js"></script>
+            
+              <!-- Initialize Swiper -->
+              <script>
+                    refreshEnd= false;
+                    times=0;//加载次数
+                    oriSpeed=300
+                var swiper = new Swiper('.swiper-container',{
+                            speed: oriSpeed,
+                            slidesPerView: 'auto',
+                            freeMode: true,
+                    direction: 'vertical',
+                            setWrapperSize: true,
+                            scrollbar: {
+                        el: '.swiper-scrollbar',
+                    },
+                            on:{
+                                    //下拉释放刷新
+                        //             touchEnd: function(){
+                        //                     swiper=this
+                        //                     refreshText=swiper.$el.find('.refresh')
+                        //     if(this.translate>100){
+                        //             swiper.setTransition(this.params.speed);
+                        //         swiper.setTranslate(100);
+                        //                 swiper.touchEventsData.isTouched=false;//跳过touchEnd事件后面的跳转(4.0.5)
+                        //                 refreshText.html('刷新中')
+                                                    
+                        //                 swiper.allowTouchMove=false;
+                        //                             setTimeout(function(){//模仿AJAX
+                        //                                     swiper.removeAllSlides();
+                        //                                     for(i=0;i<20;i++){
+                        //                                     swiper.appendSlide('<div class="swiper-slide">New Slide'+(i+1)+'</div>');
+                        //                                     refreshText.html('刷新完成');
+                        //                                     refreshEnd=true;
+                        //                                     swiper.allowTouchMove=true;
+                        //                                     }
+                        //                             },1000)
+                                                    
+                        //      }
+                                             
+                        // },
+                                    touchStart: function(){
+                                            if(refreshEnd==true){
+                                this.$el.find('.refresh').html('释放刷新');
+                                                    refreshEnd=false;
+                                            }
+                        }
+                                    
+                                //     //加载更多
+                                //     momentumBounce: function(){//非正式反弹回调函数，上拉释放加载更多可参考上例
+                                //             swiper=this
+                                //             //slidesheight=0;
+                                //             //for(h=0;h<swiper.slides.length;h++){
+                                //             //	slidesheight+=swiper.slides[h].offsetHeight;
+                                //             //}
+                                //             //endTranslate=this.height-slidesheight-20
+                                //             //if(this.translate < endTranslate){}
+                                //             if(swiper.translate<-100){
+                            
+                                //                     swiper.allowTouchMove=false;//禁止触摸
+                                //                     swiper.params.virtualTranslate=true;//定住不给回弹
+                                // setTimeout(function(){//模仿AJAX
+                                //                         for(m=0;m<20;m++){
+                                //                             swiper.appendSlide('<div class="swiper-slide">moreSlide'+(times*20+m+1)+'</div>');	
+                                //                             }
+                                //                             swiper.params.virtualTranslate=false;
+                                //                             swiper.allowTouchMove= true;
+                                //                             times++
+                                //                 },1000)
+                                                    
+                                //             }
+                                //     },
+                            }
+                    });
+            
+              </script>
+            
+
+
     <p>中赫介绍<span>ABOUT COHIM</span></p>
+
+    
     <ul class="txt">
         <li>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;中赫时尚(北京)文化发展股份有限公司。以下简称“中赫时尚”。中赫时尚成立于2004年，股票代码：870377。中赫时尚在教育领域的培训课程包含时尚管理学院、北京花校（FLOWER SCHOOL BEIJING）、空间软装设计学院，

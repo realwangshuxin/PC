@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>course</title>
+  <link rel="stylesheet" href="../css/swiper.min.css">
+  <link rel="stylesheet" href="../css/course.css">
+  <style>
+  </style>
+</head>
+<body>
+    <header></header>
+<h2 style="margin-top:-60px">ALL COURSES<br>
+———— Yet Completely New ————</h2>
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide"><img src="../img/s_banner4.jpg" data-srcset="img/picture-1-2x.jpg 2x" class="swiper-lazy">
+            <div class="swiper-lazy-preloader"></div></div>
+      <div class="swiper-slide"><img src="../img/s_banner1.jpg" data-srcset="img/picture-2-2x.jpg 2x" class="swiper-lazy">
+            <div class="swiper-lazy-preloader"></div></div>
+      <div class="swiper-slide"><img src="../img/s_banner2.jpg" data-srcset="img/picture-3-2x.jpg 2x" class="swiper-lazy">
+            <div class="swiper-lazy-preloader"></div></div>
+      <div class="swiper-slide"><img src="../img/s_banner3.jpg" data-srcset="img/picture-4-2x.jpg 2x" class="swiper-lazy">
+            <div class="swiper-lazy-preloader"></div></div>
+      <div class="swiper-slide"><img src="../img/s_banner5.jpg" data-srcset="img/picture-5-2x.jpg 2x" class="swiper-lazy">
+            <div class="swiper-lazy-preloader"></div></div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  <script src="../js/swiper.min.js"></script>
+  <script>
+    var swiper = new Swiper('.swiper-container',{
+		  autoplay: {
+			delay: 5000,  
+			disableOnInteraction: false,
+		  },
+		  speed: 700,
+		  allowTouchMove: false,
+		  lazy: {
+			loadPrevNext: true,
+			loadPrevNextAmount: 3,
+		  },
+		  centeredSlides: true,
+		  spaceBetween : 50,
+		  slidesOffsetBefore: 40,
+		  loop: true,
+		  slidesPerView : 'auto',
+		  on: {
+			slideChangeTransitionEnd: function(){
+			  this.slides.transition(this.params.autoplay.delay+this.params.speed).transform('translate3d(-60px, 0, 0)');
+			},
+			slideChangeTransitionStart: function(){
+			  this.slides.transition(this.params.speed).transform('translate3d(0, 0, 0)');
+			},
+		  },
+		  pagination: {
+			el: '.swiper-pagination',
+			clickable :true,
+			renderBullet: function (index, className) {
+              return '<div class="' + className + '"><span></span><i></i></div>';
+            },
+		  },
+		  navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		  },
+		});
+		window.onresize=function(){
+		  swiper.update();
+		}
+  </script>
+
+
+<div class="part4">
+        <ul>
+          <li class="li1">精选课程</li>
+          <li class="li2">时尚管理学院</li>
+          <li class="li3">北京花校</li>
+          <li class="li4">空间软装设计学院</li>
+          <li class="li5">中赫国际</li>
+          <li class="li6">中赫咖啡</li>
+        </ul>
+      </div>
+      <div class="part5_parent">
+      <div class="part5">
+        <div class="parent">
+            <div>
+              <img src="../img/part4_1.jpg" alt="">
+              <div class="change">
+                  <p>课程介绍：●消费升级后零售业态的EMBA课程 ...</p>
+                  <button>点击详情</button>
+                </div>
+            </div>
+            <div class="neirong">
+                <h5>品牌营销与运营管理课</h5>
+                <p>时尚</p>
+            </div>
+        </div>
+        <div class="parent">
+            <div>
+              <img src="../img/part4_2.jpg" alt="">
+              <div class="change">
+                  <p>课程介绍：中赫时尚《服装造型搭配》课程是一门专...</p>
+                  <button>点击详情</button>
+                </div>
+            </div>
+            <div class="neirong">
+                <h5>服装造型搭配课</h5>
+                <p>时尚</p>
+            </div>
+        </div>
+        <div class="parent">
+          <div>
+            <img src="../img/part4_3.png" alt="">
+            <div class="change">
+                <p>课程介绍：中赫时尚《服装造型搭配》课程是一门专...</p>
+                <button>点击详情</button>
+              </div>
+          </div>
+            <div class="neirong">
+                <h5>全科花艺师设计课 </h5>
+                <p>花校</p>
+            </div>
+        </div>
+        <div class="parent">
+          <div>
+            <img src="../img/part4_4.jpg" alt="">
+            <div class="change">
+                <p>课程介绍：本课程为中赫时尚特别推出的针对商业空...</p>
+                <button>点击详情</button>
+              </div>
+          </div>
+            <div class="neirong">
+                <h5>零售空间设计课</h5>
+                <p>空间</p>
+            </div>
+        </div>
+        <div class="parent">
+          <div>
+            <img src="../img/part4_5.jpg" alt="">
+            <div class="change">
+                <p>课程介绍：中赫时尚的《精品咖啡师课程》是针对初...</p>
+                <button>点击详情</button>
+              </div>
+          </div>
+            <div class="../neirong">
+                <h5>精品咖啡师课程</h5>
+                <p>咖啡</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer></footer>
+
+
+  <script src="../js/jquery-1.11.3.js"></script>
+  <script src="../js/course.js"></script>
+  <script src="../js/slidedown2.js"></script>
+  <script src="../js/header.js"></script>
+  <script src="../js/footer.js"></script>
+</body>
+</html>

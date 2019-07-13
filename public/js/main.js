@@ -10,12 +10,12 @@ $(()=>{
         for(var res of result){
             html+=
             `<li>
-            <div>
               <img src="http://127.0.0.1:8888/${res.pic}" alt="">
-              <h5><a href="">${res.title}</a></h5>
-              <p><a href="">${res.subtitle}</a></p>
-              <p class="b">${res.tag}</p>
-            </div>
+              <div>
+                <h5><a href="">${res.title}</a></h5>
+                <p><a href="">${res.subtitle}</a></p>
+                <p class="b">${res.tag}</p>
+              </div>
           </li>`;
         // console.log(html)
     }

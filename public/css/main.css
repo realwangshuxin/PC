@@ -513,7 +513,7 @@
   width: 158px;
   height: 44px;
   position: absolute;
-  top:50%;left:50%;
+  top:40%;left:35%;
   transform: translate(158px);
   background: black;
   z-index:1000;
@@ -533,7 +533,8 @@
   margin-left: 300px;
 }
 .part9>h2{
-  margin-left: 300px;
+  margin-left: 338px;
+  margin-bottom: 6px
 }
 .part9>p{
   margin-left: 325px;
@@ -547,15 +548,19 @@
 .part9 ul{
   list-style: none;
   margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .part9 ul li{
   width:500px;height: 150px;
-  float: left;
+  display: flex;
+  /* float: left; */
   
 }
 .part9 ul li div{
-  margin-left:140px;
-  text-align: left
+  /* margin-left:140px; */
+  text-align: left;
+  margin-left: 15px;
 }
 .part9 ul li div a{
   text-decoration: none;
@@ -589,7 +594,7 @@
 }
 .part10_div{
   position: absolute;
-  left: 680px;top:720px;
+  left: 680px;top:277px;
   width: 400px;
   color: #fff;
 }
@@ -605,10 +610,11 @@
   text-align:center;
   line-height:40px;
   text-decoration: none;
+  margin-top: 20px
 }
 .part10_div .a2,.part10_div .a2:hover{
   display:block;
-  width: 158px;height: 40px;
+  width: 160px;height: 42px;
   background-color:#fff;
   color: #000; 
   text-align:center;
@@ -622,11 +628,11 @@
   color: #000;
   font-size: 20px;
   font-weight: bold;
-  left:840px;top:580px;
+  left:830px;top:130px;
 }
 .part10 .call img{
   width:40px;
-  margin-bottom: 10px;
+  margin-bottom:-15px;
 
 }
 .part11{
@@ -758,7 +764,7 @@
   border: 2px solid #000;
   font-size: 17px;
   letter-spacing: 2px;
-  margin:20px 450px;
+  margin:40px 450px;
   outline: 0;
   margin-bottom: 50px;
   transition: background-color .5s linear;

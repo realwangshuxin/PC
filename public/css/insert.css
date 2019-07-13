@@ -83,7 +83,7 @@
     background-repeat:no-repeat; 
     background-position: 3% 50% 
 }
-.login input[id=upwd]{
+.login input[id=upwd],.login input[id=upwd2]{
     background-image: url("http://127.0.0.1:8888/img/login/login_password.png");
     background-repeat:no-repeat; 
     background-position: 3% 50% 
@@ -129,7 +129,7 @@ input[type=text]:focus, input[type=password]:focus {
 .login button{
     width: 100%;
     height: 46px;
-    background: #000;
+    background: #ccc;
     outline: none;
     border: 0;
     color: #fff;
@@ -147,7 +147,10 @@ input[type=text]:focus, input[type=password]:focus {
 }
 #my_button:hover{
     cursor: pointer;
-    background: rgba(0, 0, 0, 0.9)
+    background: rgba(c, c, c, 0.9)
+}
+.agree_img:hover{
+    cursor: pointer;
 }
 .yes,.no{
     width:478px;

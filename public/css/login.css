@@ -150,6 +150,10 @@ input[type=text]:focus, input[type=password]:focus {
     right: 0px;
     background: #fff;
 }
+#my_button:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.9)
+}
 .yes,.no{
     width:478px;
     background: #fff;
