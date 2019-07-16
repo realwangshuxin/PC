@@ -6,6 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="../css/fashion.css">
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <style>
+    .swiper-container {
+      width: 250px !important;
+      height: 340px !important;
+      padding: 20px !important;
+      background: #fff !important;
+      margin: 0 !important;
+      perspective:10 !important;
+    }
+    .swiper-slide {
+      background-position: center !important;
+      background-size: cover !important;
+      width:250px !important;
+      height: 200px !important;
+    }
+    .swiper-pagination-bullet-active {
+    opacity: 1 !important;
+    background: #000 !important;
+}
+    </style>
 </head>
 <body>
     <!-- <header></header> -->
@@ -22,15 +43,16 @@
     </div>
     </div>
 
-    <div>
+    <div class="ppparent">
         <div>
-            <div>
-                <div>
-                    <img src="../img/fashion/coure.png" alt="">
-                    <span>课程简介</span>
+            <div class="part1">
+                <table></table>
+                <div class="part1_txt">
+                    <!-- <img src="../img/fashion/coure.png" alt=""> -->
+                    <span class="part1_title">课程简介</span>
                     <p>COURSE INTRODUCTION</p>
                 </div>
-                <div>
+                <div class="part1_txt2">
                         时尚买手——如何购买的商业艺术！<br>
                         中国权威时尚买手课程，毕业学生遍布各大品牌，成为行业一线买手，或创立自己的时尚品牌、买手店，业界瞩目！<br>
                         2005年中赫时尚推出的中国首套《时尚买手》培训课程，经过几次全面升级如今已经成为中赫时尚核心金牌课程。课程内容严谨全面，欧洲及中国资深买手课<br>
@@ -40,24 +62,330 @@
                         2019，课程全面结合市场，引领视觉经济；<br>
                         2019，秉承专业、时尚、幸福、创新培训理念，源起文化，落地商业！<br>
                         学习形式：全日制脱产学习，理论课和实践课<br>
-                        证　　书：完成全部课程学习后可获得《中赫时尚时尚买手培训证书》<br>
+                        证  书：完成全部课程学习后可获得《中赫时尚时尚买手培训证书》<br>
                 </div>
                 <a href="">咨询课程</a>
                 <a href="">报名入学</a>
                 <a href="">报名流程</a>
                 <a href="">住宿推荐</a>
-                <a href="">more<img src="../img/fashion/more.png" alt=""></a>
+                <a href="javascript:;" id="more"><span>more</span><img src="../img/fashion/more.png" alt=""></a>
+        </div>
+                <div class="more" id="toggle">
+                                品牌零售商、品牌营运人员、时尚买手店产品负责人、网络电商产品负责人、服饰产品开发人员、百货公司招商负责人。
+                </div>
+            <div class="part2">
+                <div class="part2_txt">
+                    <span class="part2_title">学习对象</span>
+                    <p>LEARNING TARGET</p>
+                </div>
+                <p>品牌零售商、品牌营运人员、时尚买手店产品负责人、网络电商产品负责人、服饰产品开发人员、百货公司招商负责人。</p>
             </div>
+            <div class="part3">
+                    <div class="part3_txt">
+                        <span class="part3_title">课程介绍</span>
+                        <p>COURSE INTRODUCTION</p>
+                    </div>
+                    <a href="" class="course1">查看全部课表</a>
+                    <a href="" class="course2">下载PDF课表</a>
+                    <ul>
+                        <li>
+                            <p>买手概述&不同模式下的买手职能 6课时</p>
+                            <a href="javascript:;" class="gengduo">查看更多</a>
+                            <div class="gengduo_div">
+                                        1.体验式商业环境下的产业结构<br>
+                                        2.时尚运营链<br>
+                                        3.买手角色(工作内容)<br>
+                                        4.买手类别<br>
+                                        5.买手工作体系（多品牌，单一品牌）<br>
+                                        6.国际买手工作循环图<br>
+                                        7.时尚品牌产品周期与流行信号分析<br>
+                                        8.买手项目书－线上线下买手项目书 贯穿全课程
+                            </div>
+                        </li>
+                        <li>
+                            <p>品牌定位及营销战略 6课时</p>
+                            <a href="javascript:;" class="gengduo">查看更多</a>
+                            <div class="gengduo_div">
+                                        1.体验式商业环境下的产业结构<br>
+                                        2.时尚运营链<br>
+                                        3.买手角色(工作内容)<br>
+                                        4.买手类别<br>
+                                        5.买手工作体系（多品牌，单一品牌）<br>
+                                        6.国际买手工作循环图<br>
+                                        7.时尚品牌产品周期与流行信号分析<br>
+                                        8.买手项目书－线上线下买手项目书 贯穿全课程
+                            </div>
+                        </li>
+                        <li>
+                            <p>体验式商业环境百货市场分析及商业调研 6课时</p>
+                            <a href="javascript:;" class="gengduo">查看更多</a>
+                            <div class="gengduo_div">
+                                        1.体验式商业环境下的产业结构<br>
+                                        2.时尚运营链<br>
+                                        3.买手角色(工作内容)<br>
+                                        4.买手类别<br>
+                                        5.买手工作体系（多品牌，单一品牌）<br>
+                                        6.国际买手工作循环图<br>
+                                        7.时尚品牌产品周期与流行信号分析<br>
+                                        8.买手项目书－线上线下买手项目书 贯穿全课程
+                            </div>
+                        </li>
+                        <li>
+                            <p>流行趋势及搭配组货 18课时</p>
+                            <a href="javascript:;" class="gengduo">查看更多</a>
+                            <div class="gengduo_div">
+                                        1.体验式商业环境下的产业结构<br>
+                                        2.时尚运营链<br>
+                                        3.买手角色(工作内容)<br>
+                                        4.买手类别<br>
+                                        5.买手工作体系（多品牌，单一品牌）<br>
+                                        6.国际买手工作循环图<br>
+                                        7.时尚品牌产品周期与流行信号分析<br>
+                                        8.买手项目书－线上线下买手项目书 贯穿全课程
+                            </div>
+                        </li>
+                        <li>
+                            <p>品牌VM规划与货品沟通 12课时</p>
+                            <a href="javascript:;" class="gengduo">查看更多</a>
+                            <div class="gengduo_div">
+                                        1.体验式商业环境下的产业结构<br>
+                                        2.时尚运营链<br>
+                                        3.买手角色(工作内容)<br>
+                                        4.买手类别<br>
+                                        5.买手工作体系（多品牌，单一品牌）<br>
+                                        6.国际买手工作循环图<br>
+                                        7.时尚品牌产品周期与流行信号分析<br>
+                                        8.买手项目书－线上线下买手项目书 贯穿全课程
+                            </div>
+                        </li>
+                        <li>
+                            <p>买手数据分析与采买策略 12课时</p>
+                            <a href="javascript:;" class="gengduo">查看更多</a>
+                            <div class="gengduo_div">
+                                        1.体验式商业环境下的产业结构<br>
+                                        2.时尚运营链<br>
+                                        3.买手角色(工作内容)<br>
+                                        4.买手类别<br>
+                                        5.买手工作体系（多品牌，单一品牌）<br>
+                                        6.国际买手工作循环图<br>
+                                        7.时尚品牌产品周期与流行信号分析<br>
+                                        8.买手项目书－线上线下买手项目书 贯穿全课程
+                            </div>
+                        </li>
+                    </ul>
+            </div>
+            <div class="part_4">
+                    <div class="part4_txt">
+                            <span class="part4_title">课堂演示</span>
+                            <p>CLASSROOM</p>
+                    </div>
+                    <img src="../img/fashion/6d9f103816b398f873f8f103d6e08a63.jpg" alt="">
+            </div>
+            <div class="part_5">
+                    <div class="part5_txt">
+                            <span class="part5_title">讲师信息</span>
+                            <p>TEACHER INFORMATION</p>
+                    </div>
+            </div>
+            <ul class="teacher">
+                    <li>
+                        <img src="../img/fashion/teacher1.jpg" alt="">
+                    <div class="img_parent">
+                        <b>SELENA</b>
+                        <div  class="tag">时尚买手</div>
+                        <div  class="tag">视觉陈列</div>
+                        <div class="text">
+                                国际奢侈品牌资深陈列师<br>
+                                拥有独到的时尚嗅觉与趋势应用体系<br>
+                                具备多年时尚零售行业的VM管理经验<br>
+                                丰富陈列理论与实操经验
+                        </div>
+                        <img src="../img/fashion/1.png" alt="" class="img1">
+                    </div>
+                    </li>
+                    <li>
+                            <img src="../img/fashion/teacher2.jpg" alt="">
+                            <div class="img_parent">
+                                <b>ALEX LI</b>
+                                <div class="tag">品牌营销与运营管理</div>
+                                <div class="tag">时尚买手</div>
+                                <div class="text">
+                                        资深国际互联网平台买手顾问<br>
+                                        全球市场外贸B2C时尚电子商务网站CEO <br>
+                                        巴黎高等商业学校ESCP—EAP媒体管理硕士 <br>
+                                        法国企业管理MBA <br>
+                                        巴黎Modaffaires首席买手<br>
+                                        曾任新媒体副总裁兼媒体总监，负责网络媒体运营管理<br>
+                                        对于国际媒体、互联网买手运作具备丰富的国际经验
+                                </div>
+                                <img src="../img/fashion/1.png" alt="" class="img2">
+                            </div>
+                    </li>
+                    <li>
+                            <img src="../img/fashion/teacher3.jpg" alt="" >
+                            <div class="img_parent">
+                                <b>ALEX HAN</b>
+                                <div class="tag">时尚买手</div>
+                                <div class="text">
+                                        国际著名品牌运营总监，资深买手<br>
+                                        独立设计师品牌总监，资深品牌顾问<br>
+                                        为多个品牌运作提供有效商业资源以及运作统筹支持<br>
+                                        丰富的一线品牌运营及买手工作经验<br>
+                                        谙熟时尚营销商业流程<br>
+                                        并能从运营角度清晰分析买手商业职责<br>
+                                        为生意的打开提供详实有效的市场依据
+                                </div> 
+                                <img src="../img/fashion/1.png" alt="" class="img3">
+                            </div>
+                    </li>
+                </ul>
+                <div class="part_6">
+                        <div class="part6_txt">
+                                <span class="part6_title">学员案例</span>
+                                <p>STUDENT PORTFOLIO</p>
+                        </div>
+                        <div class="stu_parent">
+                                <div class="stu">
+                                        <a href="">买手故事｜“我知道艺术是飘在云端的，但我想让它落地！</a>
+                                        <img src="../img/fashion/stu1.jpg" alt="">
+                                    </div>
+                                    <div class="stu">
+                                            <a href="">买手故事｜人啊，只有在迷茫的时候才会抬头。</a>
+                                            <img src="../img/fashion/stu2.jpg" alt="">
+                                    </div>
+                                    <div class="stu">
+                                            <a href="">买手人物|30岁的人正在过这样的生活，她根本不知道20岁的你在焦虑什么！</a>
+                                            <img src="../img/fashion/stu3.png" alt="">
+                                    </div>
+                                    <div class="stu">
+                                                <a href="">买手人物 |“其实我内心一直有一个想法，但我从来没有告诉任何人”</a>
+                                                <img src="../img/fashion/stu4.jpg" alt="">
+                                    </div>
+                        </div>
+                </div>
         </div>
 
+        <div>
+             <!-- Swiper -->
+         <div class="swiper-container swiper-container-flip swiper-container-3d swiper-container-initialized swiper-container-horizontal" style="cursor: -webkit-grab;">
+         <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide-active" style="background-image: url(../img/fashion/small1.jpg); width: 300px; z-index: 6; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
+                    <div class="swiper-slide-shadow-left" style="opacity: 0;"></div>
+                    <div class="swiper-slide-shadow-right" style="opacity: 0;"></div>
+                    <div class="text_position">
+                        <h3>品牌营销与运营管理课</h3>
+                        <p>￥29800</p>
+                    </div>
+                </div>
+                <div class="swiper-slide swiper-slide-next" style="background-image: url(../img/fashion/small2.jpg); width: 300px; z-index: 5; transform: translate3d(-300px, 0px, 0px) rotateX(0deg) rotateY(180deg);">
+                    <div class="swiper-slide-shadow-left" style="opacity: 1;"></div>
+                    <div class="swiper-slide-shadow-right" style="opacity: 0;"></div>
+                    <div class="text_position">
+                            <h3>服装造型搭配|北京&上海校区</h3>
+                            <p>￥12800</p>
+                        </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(../img/fashion/small3.jpg); width: 300px; z-index: 5; transform: translate3d(-600px, 0px, 0px) rotateX(0deg) rotateY(180deg);">
+                    <div class="swiper-slide-shadow-left" style="opacity: 1;"></div>
+                    <div class="swiper-slide-shadow-right" style="opacity: 0;"></div>
+                    <div class="text_position">
+                            <h3>巴黎时尚买手深度研修课</h3>
+                            <p>￥62180</p>
+                        </div>
+                </div>
+                <div class="swiper-slide" style="background-image: url(../img/fashion/small4.jpg); width: 300px; z-index: 5; transform: translate3d(-900px, 0px, 0px) rotateX(0deg) rotateY(180deg);">
+                    <div class="swiper-slide-shadow-left" style="opacity: 1;"></div>
+                    <div class="swiper-slide-shadow-right" style="opacity: 0;"></div>
+                    <div class="text_position">
+                            <h3>橱窗设计课</h3>
+                            <p>￥19800</p>
+                        </div>
+                </div>
+        </div>
+    
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-bullets"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span><span class="swiper-pagination-bullet"></span></div>
+    
+        <!-- Add Arrows -->
+        <!-- <div class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true"></div>
+        <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false"></div> -->
+      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+        
 
 
+        <ul class="tuijian">
+            <li>
+                <img src="../img/fashion/tiny1.jpg" alt="">
+                <div class="tuijian_flex">
+                        <p class="p_title">品牌营销与运营管理课</p>
+                        <input class="liulan" value="0人已查看">
+                </div>
+            </li>
+            <li>
+                    <img src="../img/fashion/tiny2.png" alt="">
+                    <div class="tuijian_flex">
+                            <p class="p_title">品牌营销与运营管理课</p>
+                            <input class="liulan" value="0人已查看" >
+                    </div>
+            </li>
+            <li>
+                    <img src="../img/fashion/tiny3.jpg" alt="">
+                    <div class="tuijian_flex">
+                            <p class="p_title">品牌营销与运营管理课</p>
+                            <input class="liulan" value="0人已查看" >
+                    </div>
+            </li>
+            <li>
+                    <img src="../img/fashion/tiny4.jpg" alt="">
+                    <div class="tuijian_flex">
+                            <p class="p_title">品牌营销与运营管理课</p>
+                            <input class="liulan" value="0人已查看" >
+                    </div>
+            </li>
+            <li>
+                    <img src="../img/fashion/tiny5.jpg" alt="">
+                    <div class="tuijian_flex">
+                            <p class="p_title">品牌营销与运营管理课</p>
+                            <input class="liulan" value="0人已查看" >
+                    </div>
+            </li>
+            <li>
+                    <img src="../img/fashion/tiny6.jpg" alt="">
+                    <div class="tuijian_flex">
+                            <p class="p_title">品牌营销与运营管理课</p>
+                            <input class="liulan" value="0人已查看" >
+                    </div>
+            </li>
+        </ul>
+        <div class="baoming">
+            <h3>优秀的人都报名了呢</h3>
+            <a href="" class="baominga">立即报名</a>
+            <a href="" class="zixun">咨询课程</a>
+        </div>
 
-
-        <div></div>
+        </div>
+    </div>
+    <div style="width:1600px;background:#fff;padding-top:10px;margin-top:15px;">
+        <footer></footer>
     </div>
 
     <script src="../js/jquery.min.js"></script>
+    <script src="../js/fashion.js"></script>
     <script src="../js/dhl.js"></script>
+    <script src="../js/swiper.min.js"></script>
+    <script src="../js/footer.js"></script>
+    <script>
+            var swiper = new Swiper('.swiper-container', {
+              effect: 'flip',
+              grabCursor: true,
+              pagination: {
+                el: '.swiper-pagination',
+              },
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+            });
+          </script>
 </body>
 </html>

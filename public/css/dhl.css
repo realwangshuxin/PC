@@ -49,7 +49,15 @@
     /* padding-left: 50px; */
     top:-5px;
   }
-  
+  .dhl_bg{
+    background: #fff;
+      
+  }
+  .dhl_bg ul li a{
+    color: #000 !important;
+    background: #fff !important;
+  }
+ 
   #content{
     margin-left:40px;
   }
