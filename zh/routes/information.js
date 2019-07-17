@@ -7,7 +7,7 @@ router.get("/",(req,res)=>{
    var ps = req.query.pageSize;
    // -设置默认值
    if(!pno){pno=1}
-   if(!ps){ps=40}
+   if(!ps){ps=20}
    //-创建第一条 sql语句 当前页
    var obj = {code:1,msg:"查询成功"};
     var sql=`SELECT * FROM zh_information LIMIT ?,?`;

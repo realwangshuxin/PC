@@ -1,0 +1,94 @@
+.fix1,.fix2,.fix3,.fix4{
+    overflow: hidden;
+    position: relative;
+    width: 40px;
+}
+#f1,#f2,#f3,#f4{
+    position: absolute;
+    transition: all .3s linear;
+    top:45px;
+}
+.fix1:hover>#f1,
+.fix2:hover>#f2,.fix3:hover>#f3,.fix4:hover>#f4{
+    top:0px;
+}
+#ff:hover{
+    cursor: pointer;
+}
+.ewm{
+    position: absolute;
+    z-index: 1000;
+    top:15px;
+    left: -110px;
+}
+.ewm>img:first-child{
+    width: 100px;
+    height: 100px;
+}
+.x{
+    width: 25px;
+    height: 25px;
+    /* background: rgba(0,0,0,.6); */
+    border-radius: 50%;
+    position: absolute;
+    top:-7px;
+    left: 80px;
+    z-index: 900;
+    background: rgba(0,0,0,.6) url("../img/fix/x.png") center center no-repeat;
+
+}
+.xx{
+    width: 25px;
+    height: 25px;
+    /* background: rgba(0,0,0,.6); */
+    border-radius: 50%;
+    position: absolute;
+    top:-13px;
+    left: 165px;
+    z-index: 900;
+    background: rgba(0,0,0,.6) url("../img/fix/x.png") center center no-repeat;
+
+}
+/* .x{
+    width:70%;
+    height:70%;
+    text-align: center;
+    margin: 10px 10px
+} */
+.tel{
+    width: 160px;
+    height: 100px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    position: absolute;
+    top: 57px;
+    left: -200px;
+
+}
+.tel input{
+    width: 92%;
+    margin: 0px auto;
+    padding: 5px
+}
+.tel button{
+    height: 28px;
+    line-height:28px;
+    background: #000000!important;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    border: 0;
+    outline: none;
+    width: 100%;
+    margin-top: 10px
+}
+.tel p{
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 10px
+}
+.hide{
+    display: none;
+}

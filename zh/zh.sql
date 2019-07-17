@@ -498,104 +498,112 @@ CREATE TABLE zh_information(
     ndate Date
 );
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li1.jpg','如果你厌倦了伦敦，你就厌倦了生活 / 去伦敦做个视觉陈列达人','1906B全科花艺设计班，我们称她们为敢...','全科花艺','2019-07-16');
+    null,'img/information/li1.jpg','如果你厌倦了伦敦，你就厌倦了生活 / 去伦敦做个视觉陈列达人','1906B全科花艺设计班，我们称她们为敢...','全科花艺','2019-07-16');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li2.jpg','三步教你解决软装设计高级感！','1906B全科花艺设计班，我们称她们为敢...','软装陈设','2019-06-21');
+    null,'img/information/li2.jpg','三步教你解决软装设计高级感！','1906B全科花艺设计班，我们称她们为敢...','软装陈设','2019-06-21');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li3.jpg','超帅花艺魔鬼教练，带来三种全新花艺风格解析','1906B全科花艺设计班，我们称她们为敢...','软装陈设','2019-06-20');
+    null,'img/information/li3.jpg','超帅花艺魔鬼教练，带来三种全新花艺风格解析','1906B全科花艺设计班，我们称她们为敢...','软装陈设','2019-06-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li4.jpg','商业化还是设计控？设计师最重要的是这个！','1906B全科花艺设计班，我们称她们为敢...','软装陈设','2019-06-18');
+    null,'img/information/li4.jpg','商业化还是设计控？设计师最重要的是这个！','1906B全科花艺设计班，我们称她们为敢...','软装陈设','2019-06-18');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li5.jpg','有灵魂的软装设计，More is More！','1906B全科花艺设计班，我们称她们为敢...','软装陈设','2019-06-14');
+    null,'img/information/li5.jpg','有灵魂的软装设计，More is More！','1906B全科花艺设计班，我们称她们为敢...','软装陈设','2019-06-14');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li6.jpg','如果你厌倦了伦敦，你就厌倦了生活 / 去伦敦做个视觉陈列达人','1906B全科花艺设计班，我们称她们为敢...','视觉营销','2019-06-09');
+    null,'img/information/li6.jpg','如果你厌倦了伦敦，你就厌倦了生活 / 去伦敦做个视觉陈列达人','1906B全科花艺设计班，我们称她们为敢...','视觉营销','2019-06-09');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li7.jpg','北欧风就是用平民的钱，过中产的瘾？','1906B全科花艺设计班，我们称她们为敢...','北欧游学','2019-05-17');
+    null,'img/information/li7.jpg','北欧风就是用平民的钱，过中产的瘾？','1906B全科花艺设计班，我们称她们为敢...','北欧游学','2019-05-17');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li8.jpg','11天的蜕变——咖啡师全职岗课程《精品咖啡师》','1906B全科花艺设计班，我们称她们为敢...','精品咖啡','2019-04-25');
+    null,'img/information/li8.jpg','11天的蜕变——咖啡师全职岗课程《精品咖啡师》','1906B全科花艺设计班，我们称她们为敢...','精品咖啡','2019-04-25');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li9.jpg','根据美国高点，“寻找”2019年软装空间流行趋势','1906B全科花艺设计班，我们称她们为敢...','美国家居','2019-02-20');
+    null,'img/information/li9.jpg','根据美国高点，“寻找”2019年软装空间流行趋势','1906B全科花艺设计班，我们称她们为敢...','美国家居','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li10.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li10.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li11.jpg','马拉喀什色与爱旅行的Adrienne，空间色彩课与摩洛哥采风','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li11.jpg','马拉喀什色与爱旅行的Adrienne，空间色彩课与摩洛哥采风','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li12.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li12.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li13.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li13.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li14.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li14.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li15.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li15.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li16.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li16.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li17.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li17.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li18.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li18.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li19.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li19.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li20.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li20.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li21.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li21.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li22.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li22.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li123.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li23.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li24.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li24.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li25.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li25.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li26.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li26.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li27.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li27.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li28.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li28.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li29.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li29.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li30.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li10.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li31.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li11.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li32.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li12.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li33.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li13.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li34.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li14.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li35.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li15.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li36.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li16.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li37.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li17.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li38.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li18.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li39.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li19.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li40.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li20.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li41.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li21.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li42.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li22.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li43.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li23.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li44.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li24.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li45.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li25.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li46.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li26.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li16.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li26.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li17.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li27.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li18.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li28.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li19.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li29.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
 INSERT INTO zh_information VALUES(
-    null,'../img/information/li20.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    null,'img/information/li30.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+    INSERT INTO zh_information VALUES(
+    null,'img/information/li24.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+INSERT INTO zh_information VALUES(
+    null,'img/information/li25.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+INSERT INTO zh_information VALUES(
+    null,'img/information/li26.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');
+INSERT INTO zh_information VALUES(
+    null,'img/information/li26.jpg','当代陈列师逆袭：高人指点如何在假期突飞猛进','1906B全科花艺设计班，我们称她们为敢...','陈列管理','2019-02-20');

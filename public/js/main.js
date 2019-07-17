@@ -75,4 +75,27 @@ $(()=>{
         text-decoration:none;color:#fff;background:none;">退出</a>`
         $("#login").html(str)
     }
+
+    
+
+    $(".tijiao").click(function(){
+        var reg_name=/^[\u4E00-\u9FA5A-Za-z]$/;
+        var reg_phone=/^1[3456789]\d{9}$/;
+        $(".name").blur(function(){
+            if(reg_name){}
+        })
+        $(".phone").blur(function(){
+            if(reg_phone){}
+        })
+        if($(".selected").checked){}
+
+
+
+    })
+
+
+
+
+
+
 })

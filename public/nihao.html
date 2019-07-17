@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #d1{
+            width:200px;height:200px;
+            position: relative;
+            overflow: hidden;
+            background-image: url("./img/star.png")
+        }
+        #d2{
+            width:200px;height:200px;
+            background: #000;
+            opacity: 0.5;
+            position:absolute;
+            top:100%;
+            transition: .5s;
+            color:aliceblue;
+        }
+    </style>
+</head>
+<body>
+        <div id="d1">
+            <div id="d2">
+                <p>asdasd</p>
+            </div>
+        </div>
+		            <script src="js/jquery-1.11.3.js"></script>
+    <script>
+        var d1=$("#d1");
+        var d2=$("#d2");
+            d1.hover(function(){
+                d2.css("top","0%")
+            },
+            function(){
+                d2.css("top","100%")
+            }
+            )
+    </script>
+
+</body>
+</html>

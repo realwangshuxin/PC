@@ -540,7 +540,7 @@
   margin-left: 325px;
 }
 .part9 img{
-    width: 120px;
+    width: 125px;
     height: 120px;
     transition: opacity .3s ease;
     float: left;
@@ -716,6 +716,9 @@
   width:1000px;height: 500px;
   margin:50px 300px;
 }
+.input input:focus{
+  border-bottom: 1px solid rgb(189, 238, 54);
+}
 .i_nput .title2{
   text-align: center;
 }
@@ -750,6 +753,7 @@
 .i_nput ul li b{
   color: red
 }
+
 .select1,.select2{
   margin-top: 13px;
   padding: 3px;
@@ -771,11 +775,54 @@
 }
 .i_nput button:hover{
   background: black;
-  color: #fff
+  color: #fff;
+  cursor: pointer;
 }
 .smallcarousel{
   margin-top:0; 
 }
 .smallcarousel img{
   width: 92% !important;
+}
+
+
+
+.bg_ohno{
+  background: rgba(0,0,0,0.5);
+  width: 1600px;
+  height: 4550px;
+  position: absolute;
+  top: 0;left: 0;
+  z-index:1001
+}
+.ok,.no{
+  background: url("../img/ok.png") center center no-repeat;
+  width: 30%;
+  height: 50%;
+  position: fixed;
+  left: 550px;
+  top: 250px;
+}
+.no{
+  background: url("../img/no.png") center center no-repeat;
+}
+.no>p{
+  position: fixed;
+  left: 710px;
+  top: 460px;
+}
+.queding{
+  border-radius: 5px;
+  padding: 10px 32px;
+  margin: 15px 5px 20px 5px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+  border: none;
+  position: fixed;
+  left: 260px;
+  top: 470px;
+  z-index: 1002;
+  background: #000 !important;
 }

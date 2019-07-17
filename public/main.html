@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>首页</title>
   <!-- <link rel="stylesheet" href="css/bootstrap.css" type="text/css"> -->
   <link rel="stylesheet" href="css/swiper.min.css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/fixed.css" type="text/css">
     <!-- 导入3个js-->
     <script src="js/swiper.min.js"></script>
     <script src="js/TweenMax.min.js"></script>
@@ -145,6 +146,12 @@
       <!-- Swiper -->
   <div class="swiper-container">
     <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <video autoplay="" loop="" src="img/cohim10s.mp4" width="100%"></video>
+        <div style="position:absolute;top:50%;left:50%;margin-left:-390px;margin-top:-100px">
+          <img src="img/video.png" alt="">
+        </div>
+      </div>
       <div class="swiper-slide"><img src="img/banner.jpg" alt=""></div>
       <div class="swiper-slide parent">
         <div class="background"></div>
@@ -503,7 +510,7 @@
             <b>*</b>
             姓名 NAME
           </p>
-          <input type="text">
+          <input type="text" class="name">
         </li>
         <li>
           <p>职业 PROFESSION</p>
@@ -514,7 +521,7 @@
             <b>*</b>
             电话 PHONE
           </p>
-          <input type="text">
+          <input type="text" class="phone">
         </li>
         <li>
           <p>专业 MAJOR</p>
@@ -557,7 +564,18 @@
           </select>
         </li>
       </ul>
-      <button>提交</button>
+      <button class="tijiao">提交</button>
+
+      <div class="bg_ohno">
+        <div class="ok">
+          <button class="queding">确定</button>
+        </div>
+        <div class="no">
+          <p>请您正确填写</p>
+          <button class="queding">确定</button>
+        </div>
+      </div>
+      
     </div>
 
     <div class="part11">
@@ -603,11 +621,43 @@
       </div>
     </div>
 
+  
 
+  </div>
+
+
+  <div style="position:fixed;z-index:1000;top:50%;right:0" id="fixed">
+    <div class="fix1">
+      <img src="img/fix/msg2.png" alt="" id="ff1">
+      <img src="img/fix/msg.png" alt="" id="f1">
+    </div>
+    <div style="margin-top:10px;" class="fix2">
+      <img src="img/fix/ewm2.png" alt="" id="ff2">
+      <img src="img/fix/ewm.png" alt="" id="f2">
+    </div>
+    <div style="margin-top:10px;" class="fix3">
+      <img src="img/fix/tel2.png" alt="" id="ff3">
+      <img src="img/fix/tel.png" alt="" id="f3">
+    </div>
+    <div style="margin-top:10px;" class="fix4">
+      <img src="img/fix/up2.png" alt="" id="ff4">
+      <img src="img/fix/up.png" alt="" id="f4">
+    </div>
+    <div class="ewm hide">
+      <img src="img/fix/ewmm.jpg" alt="">
+      <div class="x"></div>
+    </div>
+    <div class="tel hide">
+      <input type="text" placeholder="请输入电话号码">
+      <button>给您回电</button>
+      <p>该电话对您免费，请放心接听</p>
+      <div class="xx"></div>
+    </div>
   </div>
   <script src="js/jquery-1.11.3.js"></script>
   <script src="js/select.js"></script>
   <script src="js/slidedown.js"></script>
   <script src="js/main.js"></script>
+  <script src="js/fixed.js"></script>
 </body>
 </html>

@@ -34,7 +34,7 @@
     display: flex;
     width: 100%;
     list-style: none;
-    margin: 30px 270px;
+    margin: 30px 230px;
     
 }
 .biaoti li{
@@ -61,7 +61,7 @@
 }
 .liebiao{
     width: 80%;
-    margin: 0 auto;
+    margin: 0 190px;
     list-style: none;
 }
 .liebiao li{
@@ -71,7 +71,7 @@
 }
 .liebiao li img{
     width: 95%;
-    height: 210px;
+    height: 180px;
 }
 
 .liebiao li h2{
@@ -94,7 +94,7 @@
     overflow: hidden;
 }
 .li_tag{
-    color: #ccc;
+    color: rgb(168, 168, 168);
     font-size: 12px;
     border: 1px solid #f2f2f2;
     display: inline-block;
@@ -110,4 +110,44 @@
     font-weight: normal;
     height: 44px;
     overflow: hidden;
+}
+.anniu{
+    display: flex;
+    list-style: none;
+    width: 35%;
+    margin: 0 auto
+}
+.anniu li{
+    width: 29px;height: 20px;
+    background: #f2f2f2;
+    margin-left: 20px;
+    padding: 10px;
+    text-align: center;
+}
+.anniu li:hover{
+    cursor: pointer;
+}
+.anniu li.wz{
+    width: 210px !important;
+    height: 20px;
+    padding-left: 10px;
+    background: #f2f2f2;
+    line-height: 20px;
+    text-align: center;
+}
+.anniu li.input{
+    width: 62px !important;
+    height: 20px;
+}
+.anniu li input{
+    width: 55px !important;
+    background: 0;
+    border: 0;
+    outline: none;
+}
+.anniu li.go{
+    margin-left: 2px;
+}
+.hide{
+    display: none
 }
