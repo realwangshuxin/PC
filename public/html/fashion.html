@@ -14,7 +14,6 @@
       padding: 20px !important;
       background: #fff !important;
       margin: 0 !important;
-      perspective:10 !important;
     }
     .swiper-slide {
       background-position: center !important;
@@ -268,7 +267,7 @@
         <div>
              <!-- Swiper -->
          <div class="swiper-container swiper-container-flip swiper-container-3d swiper-container-initialized swiper-container-horizontal" style="cursor: -webkit-grab;">
-         <div class="swiper-wrapper">
+         <div class="swiper-wrapper" style="perspective:10">
                 <div class="swiper-slide swiper-slide-active" style="background-image: url(../img/fashion/small1.jpg); width: 300px; z-index: 6; transform: translate3d(0px, 0px, 0px) rotateX(0deg) rotateY(0deg);">
                     <div class="swiper-slide-shadow-left" style="opacity: 0;"></div>
                     <div class="swiper-slide-shadow-right" style="opacity: 0;"></div>
@@ -277,7 +276,7 @@
                         <p>￥29800</p>
                     </div>
                 </div>
-                <div class="swiper-slide swiper-slide-next" style="background-image: url(../img/fashion/small2.jpg); width: 300px; z-index: 5; transform: translate3d(-300px, 0px, 0px) rotateX(0deg) rotateY(180deg);">
+                <div class="swiper-slide swiper-slide-active" style="background-image: url(../img/fashion/small2.jpg); width: 300px; z-index: 5; transform: translate3d(-300px, 0px, 0px) rotateX(0deg) rotateY(1800deg);">
                     <div class="swiper-slide-shadow-left" style="opacity: 1;"></div>
                     <div class="swiper-slide-shadow-right" style="opacity: 0;"></div>
                     <div class="text_position">
@@ -309,7 +308,12 @@
         <!-- Add Arrows -->
         <!-- <div class="swiper-button-prev swiper-button-disabled" tabindex="0" role="button" aria-label="Previous slide" aria-disabled="true"></div>
         <div class="swiper-button-next" tabindex="0" role="button" aria-label="Next slide" aria-disabled="false"></div> -->
-      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+      <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+      <img src="../img/fashion/group_black_01.png" alt="" id="img1"
+       style="width:10px;height:10px;padding:9px;border:1px solid #000;position: relative;top:-60px;left:160px;z-index: 1000">
+      <img src="../img/fashion/group_black_02.png" alt="" id="img2"
+      style="width:10px;height:10px;background:#000;padding:10px;position: relative;top:-60px;left:170px;z-index: 1000" >
+      </div>
         
 
 

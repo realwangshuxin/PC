@@ -11,6 +11,21 @@ $(()=>{
             $(this).next().slideUp()
         }
         })
+    var pics=$(".swiper-slide-active");
+    var i=1;
+    $("#img2").click(function(){
+        
+            pics.css("background-image",`url(../img/fashion/small${i+1}.jpg)`).css(`width: 600px, z-index: ${5+i},transform: translate3d(${-300*i}px, 0px, 0px) rotateY(${180*i}deg)`)
+        
+            i++;
+            if(i==4){
+                i=1
+        }
+            console.log(pics)
+    })
+    
+
+
     })
 function myGet(classname){
     return document.getElementsByClassName(classname);

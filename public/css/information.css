@@ -1,0 +1,113 @@
+.top{
+    width: 100%;
+    height: 184px;
+    background: url("../img/information/zixun_top.png") center center no-repeat;
+}
+.label{
+    width: 1600px;
+    height: 50px;
+    background: #fff;
+    box-shadow: 3px 3px 3px rgb(190, 190, 190);
+    /* margin-top: -100px */
+}
+.label:hover{
+    cursor: pointer;
+}
+.clearfix{
+    list-style: none;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin: 2px auto;
+}
+.clearfix li{
+    line-height: 44px;
+    font-size: 18px;
+    color: #000;
+    font-weight: normal;
+}
+.clearfix li:first-child{
+    font-weight: bold;
+    border-bottom: 4px solid #000
+}
+.biaoti{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    margin: 30px 270px;
+    
+}
+.biaoti li{
+    padding-left: 20px;
+    /* width: 60px; */
+    height: 10px;
+    padding: 20px;
+    border: 1px solid rgb(219, 219, 219);
+    border-left: 0;
+    text-align: center;
+    line-height: 10px;
+    /* box-sizing: border-box;  */
+}
+.biaoti li:first-child{
+    border-left:  1px solid rgb(219, 219, 219);;
+}
+.biaoti li input,.biaoti li select{
+    border: 0;
+    outline: none;
+}
+.current{
+    background: #7c7d6a;
+    color: #fff;
+}
+.liebiao{
+    width: 80%;
+    margin: 0 auto;
+    list-style: none;
+}
+.liebiao li{
+    float: left;
+    width: 18%;
+    margin-right: 2%;
+}
+.liebiao li img{
+    width: 95%;
+    height: 210px;
+}
+
+.liebiao li h2{
+    word-break: break-all;
+    color: #333;
+    margin: 8px 0 2px;
+    font-weight: bold;
+    line-height: 18px;
+    font-size: 12px;
+    height: 36px;
+    overflow: hidden;
+}
+
+.li_p{
+    font-size: 12px;
+    color: #666;
+    line-height: 22px;
+    font-weight: normal;
+    height: 24px;
+    overflow: hidden;
+}
+.li_tag{
+    color: #ccc;
+    font-size: 12px;
+    border: 1px solid #f2f2f2;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: normal;
+    padding: 4px 2px;
+    margin: 3px 0;
+}
+.li_date{
+    font-size: 12px;
+    color: #666;
+    line-height: 22px;
+    font-weight: normal;
+    height: 44px;
+    overflow: hidden;
+}

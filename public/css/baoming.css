@@ -12,13 +12,17 @@
     height: 50px;
     background: #fff;
     box-shadow: 3px 3px 3px rgb(190, 190, 190);
+    margin-top: -100px
+}
+.label:hover{
+    cursor: pointer;
 }
 .clearfix{
     list-style: none;
     width: 30%;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: 2px auto;
 }
 .clearfix li{
     line-height: 44px;
@@ -57,7 +61,7 @@
     margin-left: 18px;
     font-size: 14px;
 }
-.zaixian_txt>p{
+.zaixian_txt>p,.xianchang>p{
     width: 290px;height: 30px;
     border-bottom: 2px solid #000;
     font-size: 18px;
@@ -67,9 +71,100 @@
     display: inline-block;
     margin-bottom: 10px;
 }
-.zaixian_txt span{
+.zaixian_txt span,.xianchang span{
     color: #c2d404;
     font-weight: lighter;
     font-size: 18px;
     margin-left: 10px;
+}
+.xianchang{
+    width: 80%;
+    padding: 27px 40px;
+    max-width: 1168px;
+    box-shadow: 0 0 3px 1px rgba(0,0,0,.1);
+    margin: 30px auto;
+}
+.xianchang>img{
+    margin: 40px 40px;
+}
+.zxbm,.yycg{
+    width: 130px;
+    height: 42px;
+    line-height: 42px;
+    background: #fff url("../img/baoming/zixun.png") left center no-repeat;
+    display: inline-block;
+    padding-left: 30px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    padding-left:50px;
+}
+.yycg{
+    background: #fff url("../img/baoming/yuyue.png") left center no-repeat;
+    margin-left: 30px;
+}
+.btn{
+    width: 20%;
+    margin: 0 auto
+}
+.dgzh{
+    background: #fff url("../img/baoming/black_bg.png") left center no-repeat;
+    width: 100%;
+    height: 320px;
+    text-align: center;
+    padding-top: 40px;
+    color: #fff;
+}
+.dgzh h2{
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px;
+    display: inline-block;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+.dgzh p{
+    line-height: 26px;
+    font-size: 12px;
+}
+.dgzh h3{
+    color: #c2d404;
+    line-height: 26px;
+    font-size: 12px;
+}
+.zs{
+    width: 100%;
+    height: 400px;
+    background: url("../img/baoming/stay_01.jpg") left center no-repeat;
+    position: relative;
+    margin-top: 20px;
+}
+.zs_txt{
+    width: 750px;
+    height: 130px;
+    color: #fff;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;left: 50%;
+    margin: -80px -325px;
+}
+.zs_txt img{
+    width: 10%;
+}
+.zs1{
+    background: url("../img/baoming/stay_02.jpg") left center no-repeat;
+}
+.zs2{
+    background: url("../img/baoming/stay_03.jpg") left center no-repeat;
+}
+.zs3{
+    background: url("../img/baoming/stay_04.jpg") left center no-repeat;
+}
+.zs4{
+    background: url("../img/baoming/stay_05.jpg") left center no-repeat;
 }

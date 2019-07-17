@@ -53,6 +53,7 @@
   }
   .part11 .ul_four li{
     padding: 20px 40px;
+    display: flex;
   
   }
   .part11 .ul_four li a{

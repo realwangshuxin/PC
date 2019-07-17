@@ -1,0 +1,123 @@
+$(()=>{
+    $(".clearfix li").click(function(){
+        $(this).css({"border-bottom":"4px solid #000","transition":"all .3s linear","font-weight":"bold"})
+        .siblings().css({"border-bottom":"none","font-weight":"normal"})
+    })
+
+    $(".clearfix li:nth-child(2)").click(function(){
+        var html=$(".html").html();
+        html=`       
+        <div class="zs">
+                <div class="zs_txt">
+                    <img src="../img/baoming/stay_01_01.png" alt="">
+                    <p>优选住宿一：赫禧短租公寓 (民宿)(仅限女生)<br>
+                        地址：北京市朝阳区酒仙桥路甲4号（798艺术区西门<br>
+                        离校距离：约1500米<br>
+                        宾馆费用：独卫单间248元/间、豪华单间228/间、单间208/间、迷你单人间158/间。
+                        豪华标准间138/人、木质高低床98/人、普通标间128/人、豪华套标间148/人
+                    </p>
+                </div>
+            </div>
+            <div class="zs zs1">
+                    <div class="zs_txt">
+                        <img src="../img/baoming/stay_01_02.png" alt="">
+                        <p>优选住宿一：赫禧短租公寓 (民宿)(仅限女生)<br>
+                            地址：北京市朝阳区酒仙桥路甲4号（798艺术区西门<br>
+                            离校距离：约1500米<br>
+                            宾馆费用：独卫单间248元/间、豪华单间228/间、单间208/间、迷你单人间158/间。
+                            豪华标准间138/人、木质高低床98/人、普通标间128/人、豪华套标间148/人
+                        </p>
+                    </div>
+                </div>
+                <div class="zs zs2">
+                        <div class="zs_txt">
+                            <img src="../img/baoming/stay_01_03.png" alt="">
+                            <p>优选住宿一：赫禧短租公寓 (民宿)(仅限女生)<br>
+                                地址：北京市朝阳区酒仙桥路甲4号（798艺术区西门<br>
+                                离校距离：约1500米<br>
+                                宾馆费用：独卫单间248元/间、豪华单间228/间、单间208/间、迷你单人间158/间。
+                                豪华标准间138/人、木质高低床98/人、普通标间128/人、豪华套标间148/人
+                            </p>
+                        </div>
+                    </div>
+                    <div class="zs zs3">
+                            <div class="zs_txt">
+                                <img src="../img/baoming/stay_01_04.png" alt="">
+                                <p>推薦住宿一： 乐活新青年社区（有协议价格）<br>
+                                    酒店地址：北京市朝阳区酒仙桥路2号院11所38号楼1层104乐活新青年社区<br>
+                                    离校距离：1500米<br>
+                                    费用：350左右/天（大床房or标准间，价格以实际咨询为准)
+                                                                        </p>
+                            </div>
+                        </div>
+                        <div class="zs zs4">
+                                <div class="zs_txt">
+                                    <img src="../img/baoming/stay_01_05.png" alt="">
+                                    <p>优选住宿一：赫禧短租公寓 (民宿)(仅限女生)<br>
+                                        地址：北京市朝阳区酒仙桥路甲4号（798艺术区西门<br>
+                                        离校距离：约1500米<br>
+                                        宾馆费用：独卫单间248元/间、豪华单间228/间、单间208/间、迷你单人间158/间。
+                                        豪华标准间138/人、木质高低床98/人、普通标间128/人、豪华套标间148/人
+                                    </p>
+                                </div>
+                            </div>`;
+                            $(".html").html(html)
+    })
+    $(".clearfix li:first-child").click(function(){
+        var html=$(".html").html();
+        html=` <div class="zaixian">
+        <div class="zaixian_txt">
+            <p>在线报名<span>ONLINE REGISTRATION</span></p>
+            <ul>
+                <li>与课程顾问老师电话或微信联系，确认所报课程名额及班期。</li>
+                <li>通过手机端或电脑端注册个人中心并登陆中赫时尚官网，选择在线报名，按照提示完成报名表填写及定金缴纳。已报名学员因故本期不能前来缴纳余款上课的，预交学费不予退还。</li>
+                <li>致电或微信联系课程顾问老师，进行定金缴纳确认，并在个人中心下载入学通知函。</li>
+                <li>按照入学通知函准备入学资料及其他事项，非北京地区的学员请根据入学通知函中注明的报到、上课时间提前预定往返机票、火车票。</li>
+            </ul>
+        </div>
+        <img src="../img/baoming/shuxing.png" alt="">
+    </div>
+
+    <div class="xianchang">
+        <p>在线报名<span>ONLINE REGISTRATION</span></p>
+        <img src="../img/baoming/liucheng.png" alt="">
+    </div>
+    <div class="btn">
+            <a href="" class="zxbm">在线报名</a>
+            <a href="" class="yycg">预约参观</a>
+    </div>
+ 
+    <div class="dgzh">
+        <h2>中赫时尚对公账号</h2>
+        <p>
+                公司名称：中赫时尚（北京）文化发展股份有限公司<br>
+                开户银行：北京银行学院路支行<br>
+                对公账号：010 9033 9100 1201 0910 2122 <br>    
+                开户银行：中国建设银行北京电子城科技园支行<br>
+                对公账号：1100 1042 1000 5302 6054 <br>
+                对公支付宝账号：PAY@COHIM.COM <br>
+        </p>
+        <h3>为了您的资金安全，请将报名费和学费汇到中赫时尚对公账号勿将款项以任何方式支付给任何个人账号</h3>
+    </div>
+    
+    <div class="zaixian">
+            <div class="zaixian_txt" style="width:60%">
+                <p>报到<span>ENROLLMENT</span></p>
+                <p style="border-bottom:none">开学前一天9：00-18：00到校办理报到手续</p>
+                <ul>
+                    <li>
+                            按入学通知函准备报到资料</li>
+                    <li>报到流程<br>
+                            A未填写报名表的同学先填写报名表<br>
+                            B缴纳剩余学费：现金、刷卡、转账均可<br>
+                            C拍入学照<br>
+                            D领取书包（教材、学习资料、学习用具等）<br>
+                            E前往住宿公寓</li>
+                    <li>第二天开学上课，开始精彩的学习生活</li>
+                </ul>
+            </div>
+            <img src="../img/baoming/baoming_bg.png" alt="" style="width:140%;margin-bottom:20px;height:200%">
+        </div>`;
+    $(".html").html(html)
+    })
+})
