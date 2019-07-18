@@ -135,6 +135,52 @@
   }
   .i_nput button:hover{
     background: black;
-    color: #fff
+    color: #fff;
+    cursor: pointer;
   }
-  
+  .input input:focus{
+    border-bottom: 1px solid rgb(189, 238, 54);
+  }
+  .bg_ohno{
+    background: rgba(0,0,0,0.5);
+    width: 1600px;
+    height: 4550px;
+    position: absolute;
+    top: 0;left: 0;
+    z-index:1001
+  }
+  .ok,.no{
+    background: url("../img/ok.png") center center no-repeat;
+    width: 30%;
+    height: 50%;
+    position: fixed;
+    left: 550px;
+    top: 250px;
+  }
+  .no{
+    background: url("../img/no.png") center center no-repeat;
+  }
+  .no>p{
+    position: fixed;
+    left:178px;
+    top: 230px;
+    z-index:1003
+  }
+  .queding{
+    border-radius: 5px;
+    padding: 10px 32px;
+    margin: 15px 5px 20px 5px;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+    border: none;
+    position: fixed;
+    left: -280px;
+    top: 230px;
+    z-index: 10000;
+    background: #000 !important;
+  }
+  .hidden{
+    display: none;
+  }

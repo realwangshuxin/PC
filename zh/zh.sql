@@ -415,7 +415,7 @@ INSERT INTO zh_article VALUES(
     null,'img/article/li_2.jpg','买手说 | 最高级的自由是自律！','当你拥有自律之后，才能称之为完全拥有自由...',
     '服装搭配');
     INSERT INTO zh_article VALUES(
-    null,'img/article/li_3.jpg','把19世纪逝者的头发镶在珠宝里，这样的首饰竟然卖出了天价！','Tara在深圳有一家自己的古董珠宝工作室...',
+    null,'img/article/li_3.jpg','19世纪逝者的头发镶珠宝里，这样的首饰卖了天价！','Tara在深圳有一家自己的古董珠宝工作室...',
     '品牌营销与运营管理');
     INSERT INTO zh_article VALUES(
     null,'img/article/li_4.jpg','在烟雨杭州：我有花，有酒，也有故事','坐落在杭州的女王花艺The queen ...',
@@ -424,7 +424,7 @@ INSERT INTO zh_article VALUES(
     null,'img/article/li_5.jpg','美丽橱窗背后的Natasha','Natasha来自合肥，是买手品牌Jan...',
     '视觉陈列');
     INSERT INTO zh_article VALUES(
-    null,'img/article/li_6.jpg','一个花艺工作室老板的自述 :你是要成为花艺师的人，而不是那个“嘿，卖花的”',
+    null,'img/article/li_6.jpg','一个花艺工作室老板的自述 ',
     '我叫大鹿，一名野生花艺师，2015毕业于...',
     '空间花艺');
 

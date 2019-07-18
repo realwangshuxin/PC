@@ -808,8 +808,9 @@
 }
 .no>p{
   position: fixed;
-  left: 710px;
-  top: 460px;
+  left:178px;
+  top: 230px;
+  z-index:1003
 }
 .queding{
   border-radius: 5px;
@@ -821,8 +822,11 @@
   color: white;
   border: none;
   position: fixed;
-  left: 260px;
-  top: 470px;
-  z-index: 1002;
+  left: -280px;
+  top: 230px;
+  z-index: 10000;
   background: #000 !important;
+}
+.hidden{
+  display: none;
 }

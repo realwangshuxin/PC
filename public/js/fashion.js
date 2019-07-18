@@ -54,3 +54,13 @@ for(var i=0;i<btnObjs.length;i++){
 // 每个按钮的内存空间位置是不同的，所有他们的对应的闭包的value的缓存值也是不一样的
 // 每次点击不同的按钮，获取不同的value值，才能实现分开点赞
 
+$(function(){
+    $.ajax({
+        url:"fixed.html",
+        type:"get",
+        success:function(result){
+            $(result).replaceAll("fixed");
+            $(`<link rel="stylesheet" href="../css/fixed.css">`).appendTo("head")
+        }
+    })
+})
